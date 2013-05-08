@@ -1,0 +1,71 @@
+/*
+* Copyright 2011, GECKO MEDIA
+* www.geckomedia.vn
+* Hotline: 097.642.9086
+* 04/04/2013
+*/
+
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fefefe;
+    margin-bottom:50px;
+    
+    -webkit-font-smoothing: antialiased;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	display: none;
+}
+
+.theme-default .nivo-directionNav a {
+	display:none;
+	width:30px;
+	height:30px;
+	background:url(arrows.png) no-repeat;
+	text-indent:-9999px;
+}
+
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family:  Arial, sans-serif;
+	height: auto;
+}
+.theme-default .nivo-caption a {
+    /*color:#fff;
+    border-bottom:1px dotted #fff;*/
+}
+.theme-default .nivo-caption a:hover {
+    /*color:#fff;*/
+}
+
+.theme-default .nivo-controlNav.nivo-thumbs-enabled {
+	width: 100%;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled a {
+	width: auto;
+	height: auto;
+	background: none;
+	margin-bottom: 5px;
+}
+.theme-default .nivo-controlNav.nivo-thumbs-enabled img {
+	display: block;
+	width: 120px;
+	height: auto;
+}

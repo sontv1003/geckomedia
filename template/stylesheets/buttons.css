@@ -1,0 +1,1489 @@
+
+.buttonyellow, 
+.buttonyellow:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat; 
+	background-color: #ffc000;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffc000), to(#ffe400)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ffe400, #ffc000);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #a67707;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #c6a10c;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonyellow:hover{
+	color: #a67707;
+	
+	/* fallback */ 
+	background-color: #ffe400;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe400), to(#ffc000)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ffc000, #ffe400);
+				
+	cursor: pointer;
+	}
+	
+	
+.buttonyellow2, 
+.buttonyellow2:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat; 
+	background-color: #ffc000;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffc000), to(#ffe400)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ffe400, #ffc000);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #a67707;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.8),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #c6a10c;
+	display: block;					  
+	margin: 3px 0 0 0;
+	}
+	
+.buttonyellow2:hover{
+	color: #a67707;
+	
+	/* fallback */ 
+	background-color: #ffe400;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe400), to(#ffc000)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-yellow.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ffc000, #ffe400);
+				
+	cursor: pointer;
+	}
+	
+
+	
+.buttongreen, 
+.buttongreen:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-green.png) 20px center no-repeat; 
+	background-color: #73a91c;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#73a91c), to(#a6dc50)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-o-linear-gradient(top, #a6dc50, #73a91c);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #04620f;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #047011;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttongreen:hover{
+	color: #04620f;
+	
+	/* fallback */ 
+	background-color: #a6dc50;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#a6dc50), to(#73a91c)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #73a91c, #a6dc50); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #73a91c, #a6dc50); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #73a91c, #a6dc50); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-o-linear-gradient(top, #73a91c, #a6dc50);				
+	cursor: pointer;
+	}
+	
+.buttonblue, 
+.buttonblue:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-blue.png) 20px center no-repeat; 
+	background-color: #07a1e8;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-blue.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#07a1e8), to(#81d1ff)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-blue.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #81d1ff, #07a1e8); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-blue.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #81d1ff, #07a1e8); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-blue.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #81d1ff, #07a1e8); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-blue.png) 20px center no-repeat,
+				-o-linear-gradient(top, #81d1ff, #07a1e8);	
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #046b9c;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #0981b8;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonblue:hover{
+	color: #046b9c;
+	
+	/* fallback */ 
+	background-color: #81d1ff;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#81d1ff), to(#07a1e8)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #07a1e8, #81d1ff); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #07a1e8, #81d1ff); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #07a1e8, #81d1ff); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-green.png) 20px center no-repeat,
+				-o-linear-gradient(top, #07a1e8, #81d1ff);
+	
+				
+	cursor: pointer;
+	}
+
+
+.buttonpink, 
+.buttonpink:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-pink.png) 20px center no-repeat; 
+	background-color: #ef538a;
+	
+				
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ef538a), to(#ff88b8)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ff88b8, #ef538a); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ff88b8, #ef538a); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ff88b8, #ef538a); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ff88b8, #ef538a);
+	
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #bf1f59;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #e7145e;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonpink:hover{
+	color: #bf1f59;
+	
+	/* fallback */ 
+	background-color: #ff88b8;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff88b8), to(#ef538a)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ef538a, #ff88b8); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ef538a, #ff88b8); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ef538a, #ff88b8); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-pink.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ef538a, #ff88b8);	
+				
+	cursor: pointer;
+	}
+
+.buttonorange, 
+.buttonorange:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-orange.png) 20px center no-repeat; 
+	background-color: #ffa60b;
+	
+				
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffa60b), to(#ffd188)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ffd188, #ffa60b); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ffd188, #ffa60b); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ffd188, #ffa60b); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ffd188, #ffa60b);
+	
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #be5e01;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #e77c14;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonorange:hover{
+	color: #be5e01;
+	
+	/* fallback */ 
+	background-color: #ffd188;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd188), to(#ffa60b)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #ffa60b, #ffd188); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #ffa60b, #ffd188); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #ffa60b, #ffd188); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-orange.png) 20px center no-repeat,
+				-o-linear-gradient(top, #ffa60b, #ffd188);	
+				
+	cursor: pointer;
+	}
+	
+.buttonpurple, 
+.buttonpurple:visited{
+	
+	/* fallback */
+	background: url(../images/download-dark-purple.png) 20px center no-repeat; 
+	background-color: #9869f8;
+	
+				
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#9869f8), to(#cea8fc)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #cea8fc, #9869f8); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #cea8fc, #9869f8); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #cea8fc, #9869f8); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-o-linear-gradient(top, #cea8fc, #9869f8);
+	
+
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 10px 24px 10px 48px;
+	
+	font-family: 'Arial, Helvetica, sans-serif';
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #713add;
+	
+	text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-moz-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-webkit-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-o-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	-ms-text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 5px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #793be9;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonpurple:hover{
+	color: #713add;
+	
+	/* fallback */ 
+	background-color: #cea8fc;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#cea8fc), to(#9869f8)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-webkit-linear-gradient(top, #9869f8, #cea8fc); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-moz-linear-gradient(top, #9869f8, #cea8fc); 
+	
+	/* IE 10 */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-ms-linear-gradient(top, #9869f8, #cea8fc); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/download-dark-purple.png) 20px center no-repeat,
+				-o-linear-gradient(top, #9869f8, #cea8fc);	
+				
+	cursor: pointer;
+	}
+	
+
+/*button small*/
+
+.buttongreen-small, 
+.buttongreen-small:visited{
+	
+	/* fallback */ 
+	background-color: #73a91c;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73a91c), to(#a6dc50)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #a6dc50, #73a91c);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #047011;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttongreen-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #a6dc50;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#a6dc50), to(#73a91c)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #73a91c, #a6dc50); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #73a91c, #a6dc50); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #73a91c, #a6dc50); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #73a91c, #a6dc50);
+					
+	cursor: pointer;
+	}
+	
+.buttongrey-small, 
+.buttongrey-small:visited{
+	
+	/* fallback */ 
+	background-color: #dfdfdf;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdfdf), to(#f6f6f6)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #f6f6f6, #dfdfdf); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #f6f6f6, #dfdfdf); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #f6f6f6, #dfdfdf); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #f6f6f6, #dfdfdf);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #868686;
+	
+	text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(255,255,255,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #cfcfcf;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttongrey-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #73a91c;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73a91c), to(#a6dc50)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #a6dc50, #73a91c);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #047011;
+	display: block;					  
+	margin: 3px 0 0 0;
+					
+	cursor: pointer;
+	}
+	
+	
+.buttonyellow-small, 
+.buttonyellow-small:visited{
+	
+	/* fallback */
+	background-color: #ffc000;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffc000), to(#ffe400)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffe400, #ffc000); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffe400, #ffc000);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #c6a10c;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonyellow-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #ffe400;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe400), to(#ffc000)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffc000, #ffe400); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffc000, #ffe400);
+
+					
+	cursor: pointer;
+	}
+	
+
+.buttonblue-small, 
+.buttonblue-small:visited{
+	
+	/* fallback */ 
+	background-color: #07a1e8;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#07a1e8), to(#81d1ff)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #81d1ff, #07a1e8); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #81d1ff, #07a1e8); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #81d1ff, #07a1e8); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #81d1ff, #07a1e8);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #0981b8;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonblue-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #81d1ff;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#81d1ff), to(#07a1e8)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #07a1e8, #81d1ff); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #07a1e8, #81d1ff); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #07a1e8, #81d1ff); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #07a1e8, #81d1ff);
+					
+	cursor: pointer;
+	}
+
+
+.buttonpink-small, 
+.buttonpink-small:visited{
+	
+	/* fallback */ 
+	background-color: #ef538a;
+	
+				
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ef538a), to(#ff88b8)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ff88b8, #ef538a); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ff88b8, #ef538a); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ff88b8, #ef538a); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ff88b8, #ef538a);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #e7145e;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonpink-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #ff88b8;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ff88b8), to(#ef538a)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ef538a, #ff88b8); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ef538a, #ff88b8); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ef538a, #ff88b8); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ef538a, #ff88b8);	
+					
+	cursor: pointer;
+	}
+
+.buttonorange-small, 
+.buttonorange-small:visited{
+	
+	/* fallback */ 
+	background-color: #ffa60b;
+	
+				
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffa60b), to(#ffd188)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffd188, #ffa60b); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffd188, #ffa60b); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffd188, #ffa60b); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffd188, #ffa60b);
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #e77c14;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonorange-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #ffd188;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffd188), to(#ffa60b)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #ffa60b, #ffd188); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #ffa60b, #ffd188); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #ffa60b, #ffd188); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #ffa60b, #ffd188);	
+					
+	cursor: pointer;
+	}
+	
+
+.buttonpurple-small, 
+.buttonpurple-small:visited{
+	
+	/* fallback */ 
+	background-color: #9869f8;
+	
+				
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#9869f8), to(#cea8fc)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #cea8fc, #9869f8); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #cea8fc, #9869f8); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #cea8fc, #9869f8); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #cea8fc, #9869f8);
+
+	
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	padding: 5px 8px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-moz-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-webkit-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-o-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	-ms-text-shadow: 1px 1px 0 rgba(0,0,20,0.5);
+	
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+				0 0 0 3px rgba(0,0,0,0.08);
+	-moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+					 0 0 0 3px rgba(0,0,0,0.08);
+	-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						0 0 0 3px rgba(0,0,0,0.08);
+	-o-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						 0 0 0 3px rgba(0,0,0,0.08);
+	-ms-box-shadow: inset 0 1px 0 rgba(255,255,255,0.5),
+						  0 0 0 3px rgba(0,0,0,0.08);
+	
+	border: 1px solid #793be9;
+	display: block;					  
+	margin: 3px 0 0 0;
+
+	}
+	
+.buttonpurple-small:hover{
+	color: #fff;
+	
+	/* fallback */ 
+	background-color: #cea8fc;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cea8fc), to(#9869f8)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #9869f8, #cea8fc); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #9869f8, #cea8fc); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #9869f8, #cea8fc); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #9869f8, #cea8fc);
+					
+	cursor: pointer;
+	}
+
+
+
+/*grey button default*/	
+.greybutton{
+
+	/* fallback */ 
+	background-color: #f9f9f9;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdfdf), to(#f5f5f5)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #f5f5f5, #dfdfdf); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #f5f5f5, #dfdfdf); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #f5f5f5, #dfdfdf); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #f5f5f5, #dfdfdf);
+	
+	border: 1px solid #cfcfcf;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	
+	padding: 8px 20px;
+	
+	font-family: 'dosismedium';
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #505050;
+	
+	text-shadow: 0 1px 0 #fff;
+	-moz-text-shadow: 0 1px 0 #fff;
+	-webkit-text-shadow: 0 1px 0 #fff;
+	-o-text-shadow: 0 1px 0 #fff;
+	-ms-text-shadow: 0 1px 0 #fff;
+	
+	box-shadow: inset 0 1px 0 #fff,
+				0 0 0 3px #f2f2f2;
+	-moz-box-shadow: inset 0 1px 0 #fff,
+					 0 0 0 3px #f2f2f2;
+	-webkit-box-shadow: inset 0 1px 0 #fff,
+						0 0 0 3px #f2f2f2;
+	-o-box-shadow: inset 0 1px 0 #fff,
+						 0 0 0 3px #f2f2f2;
+	-ms-box-shadow: inset 0 1px 0 #fff,
+						  0 0 0 3px #f2f2f2;
+						  
+	margin: 0;
+}
+
+
+.greybutton:hover{
+
+	/* fallback */ 
+	background-color: #73a91c;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#73a91c), to(#a6dc50)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: -webkit-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Firefox 3.6+ */ 
+	background: -moz-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* IE 10 */ 
+	background: -ms-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Opera 11.10+ */ 
+	background: -o-linear-gradient(top, #a6dc50, #73a91c);
+	
+	border: 1px solid #047011;
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-o-border-radius: 5px;
+	-ms-border-radius: 5px;
+	
+	padding: 8px 20px;
+	
+	font-family: 'dosismedium';
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.56);
+	-moz-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.56);
+	-webkit-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.56);
+	-o-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.56);
+	-ms-text-shadow: 0 1px 0 rgba(0, 0, 0, 0.56);
+	
+	box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+				0 0 0 3px #dfdfdf;
+	-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+					 0 0 0 3px #dfdfdf;
+	-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+						0 0 0 3px #dfdfdf;
+	-o-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+						 0 0 0 3px #dfdfdf;
+	-ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3),
+						  0 0 0 3px #dfdfdf;
+						  
+	cursor: pointer;	
+}
+
+.greybutton-subscribe{
+
+	/* fallback */
+	background: url(../images/arrow-subscribe-grey.png) center center no-repeat; 
+	background-color: #f9f9f9;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/arrow-subscribe-grey.png) center center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#dfdfdf), to(#f6f6f6)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/arrow-subscribe-grey.png) center center no-repeat,
+				-webkit-linear-gradient(top, #f6f6f6, #dfdfdf); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/arrow-subscribe-grey.png) center center no-repeat,
+				-moz-linear-gradient(top, #f6f6f6, #dfdfdf); 
+	
+	/* IE 10 */ 
+	background: url(../images/arrow-subscribe-grey.png) center center no-repeat,
+				-ms-linear-gradient(top, #f6f6f6, #dfdfdf); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/arrow-subscribe-grey.png) center center no-repeat,
+				-o-linear-gradient(top, #f6f6f6, #dfdfdf);
+	
+	border: none;
+	border-left: 1px solid #e7e7e7;
+	
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-o-border-radius: 2px;
+	-ms-border-radius: 2px;
+	
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	
+	width: 34px;
+	height: 33px;
+	
+	margin: 0;
+	
+	position: absolute;
+	
+	right: 1px;
+	top: 1px;
+	
+	z-index: 100;
+}
+
+
+.greybutton-subscribe:hover{
+
+	/* fallback */
+	background: url(../images/arrow-subscribe.png) center center no-repeat; 
+	background-color: #73a91c;
+	
+	/* Safari 4-5, Chrome 1-9 */ 
+	background: url(../images/arrow-subscribe.png) center center no-repeat,
+				-webkit-gradient(linear, 0% 0%, 0% 100%, from(#73a91c), to(#a6dc50)); 
+	
+	/* Safari 5.1, Chrome 10+ */ 
+	background: url(../images/arrow-subscribe.png) center center no-repeat,
+				-webkit-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Firefox 3.6+ */ 
+	background: url(../images/arrow-subscribe.png) center center no-repeat,
+				-moz-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* IE 10 */ 
+	background: url(../images/arrow-subscribe.png) center center no-repeat,
+				-ms-linear-gradient(top, #a6dc50, #73a91c); 
+	
+	/* Opera 11.10+ */ 
+	background: url(../images/arrow-subscribe.png) center center no-repeat,
+				-o-linear-gradient(top, #a6dc50, #73a91c);
+	
+	border: 1px solid #047011;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-o-border-radius: 3px;
+	-ms-border-radius: 3px;
+	
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	
+	width: 35px;
+	height: 35px;
+	
+	right: 0px;
+	top: 0px;
+	
+	cursor: pointer;
+}
