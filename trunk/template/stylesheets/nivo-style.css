@@ -1,0 +1,96 @@
+/*
+* Copyright 2011, GECKO MEDIA
+* www.geckomedia.vn
+* Hotline: 097.642.9086
+* 04/04/2013
+*/
+
+
+#wrapper{
+	border-top: 1px solid #e8e8e8;
+	background: #efefef;
+	width: 100%;
+	min-height:20px;
+	height: auto;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	}
+	
+	
+a.nivo-prevNav{
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	position:absolute;
+	background: url('../images/slide-arrow-gray-previous.png') center center no-repeat;
+	background-color: #505050;
+	top:45%;
+	left: 0;
+	z-index: 100;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-in-out;
+
+	}
+	
+a.nivo-prevNav:hover{
+	background: url('../images/slide-arrow-green-previous.png') center center no-repeat;
+	background-color: #73a91c;
+	top:45%;
+	left: 0;
+	z-index: 100;
+	cursor: pointer;
+	}
+	
+a.nivo-nextNav{
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	position:absolute;
+	background: url('../images/slide-arrow-gray-next.png') center center no-repeat;
+	background-color: #505050;
+	top:45%;
+	right: 0;
+	z-index: 100;
+
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-in-out;
+	}
+
+a.nivo-nextNav:hover{
+	background: url('../images/slide-arrow-green-next.png') center center no-repeat;
+	background-color: #73a91c;
+	cursor: pointer;
+	}
+		
+
+.slider-wrapper { 
+	max-width: 960px; 
+	margin: 0 auto;
+	background: #fefefe;
+}
+
+.slide{
+	width: 960px;
+	height: auto;
+	position: relative;
+	}
+	
+	 
+.theme-default #slider {
+    margin:0 auto;
+}
+
+
+/*====================*/
+/*=== Other Styles ===*/
+/*====================*/
+.clear {
+	clear:both;
+}
