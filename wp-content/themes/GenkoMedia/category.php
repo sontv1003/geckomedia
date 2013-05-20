@@ -1,15 +1,4 @@
 <?php
-/**
- * The template for displaying Category pages.
- *
- * Used to display archive-type pages for posts in a category.
- *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage blankSlate
- * @since blankSlate 3.5
- */
 
 get_header(); ?>
 

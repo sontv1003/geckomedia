@@ -56,8 +56,14 @@ function twentytwelve_setup() {
 	// This theme supports a variety of post formats.
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'link', 'quote', 'status' ) );
 
-	// This theme uses wp_nav_menu() in one location.
-	register_nav_menu( 'primary', __( 'Primary Menu', 'twentytwelve' ) );
+        //creat menu support for theme
+	add_theme_support('menus');
+        register_nav_menus(
+                array(
+                    'header'=>"Header",
+                    'sidebar'=>"Sidebar"
+                )
+         );
 
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
