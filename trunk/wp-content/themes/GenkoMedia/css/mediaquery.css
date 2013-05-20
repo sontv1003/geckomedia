@@ -1,0 +1,1601 @@
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+		/*sponsors*/
+		.sponsors .mini {
+			display:  none;
+		}
+		
+		.sponsors .maxi {
+			display: block;
+			float: none;
+			max-width: 100%;
+			margin: 0 0 7px 0;
+		}
+		
+		.header-content,
+		.portmenu-content,
+		.bottom-content{
+			width: 750px;
+		}
+		
+		
+		/*social icon x2*/	
+		.facebook{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/facebook-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.facebook:hover{
+			background: url(../images/facebook-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+			
+		.twitter{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/twitter-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.twitter:hover{
+			background: url(../images/twitter-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/digg-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg:hover{
+			background: url(../images/digg-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/linkedin-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin:hover{
+			background: url(../images/linkedin-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.vimeo{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/vimeo-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.vimeo:hover{
+			background: url(../images/vimeo-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.youtube{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/youtube-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.youtube:hover{
+			background: url(../images/youtube-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.dribble{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/dribble-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.dribble:hover{
+			background: url(../images/dribble-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.stumbleupon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/stumbleupon-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.stumbleupon:hover{
+			background: url(../images/stumbleupon-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.flickricon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/flickr-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.flickricon:hover{
+			background: url(../images/flickr-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.rss{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/rss-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.rss:hover{
+			background: url(../images/rss-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		/*port menu*/
+		ul.portmenu-list li a{
+			width: 187px;
+		}
+		
+		/* recent work corousel*/
+		
+		.slide-jcarousel{
+			width: 172px;
+			min-height: 117px;
+			height: auto;
+			overflow: hidden;
+		}
+	
+		.bgfade{
+			width: 172px;
+			height: 117px;
+			}
+			
+		.jcarousel-skin-tango .jcarousel-container-horizontal{
+	    	width: 100%;
+	    	padding: 10px 0 0 0;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-clip-horizontal {
+			width: 100%;
+	    	min-height: 117px;
+	    	height: auto;
+			overflow: hidden;
+			margin: 0;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-item {
+		 	width: 172px;
+	     	min-height: 117px;
+	     	height: auto;
+		 	margin-right: 20px;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-item-horizontal{
+			min-width: 172px;
+			min-height: 117px;
+			height: auto;
+			margin-left: 0;
+			margin-right: 20px;
+		}
+		
+	
+		/*from the blog*/
+		ul.fromtheblog{
+			width: 100%;
+			height: 250px;
+		}
+		
+		ul.fromtheblog li{
+			width: 172px;
+			height: 250px;
+		}
+	
+		.bgfade{
+			width: 172px;
+			height: 117px;
+			}
+		
+		/*nivo slider style*/	
+
+		.nivo-caption div{
+			margin-left: 80px;
+		}
+		
+		.nivo-caption h1{
+			margin-top: 10px;
+			font-size: 26px;
+		}
+		
+		.nivo-caption h1.v2{
+			margin-top: 0;
+			font-size: 22px;
+		}
+		
+		.nivo-caption h1.v3{
+			margin-top: 10px;
+			font-size: 22px;
+		}
+		
+		.nivo-caption h2{
+			font-size: 22px;
+		}
+		
+		.nivo-caption h2.v2{
+			font-size: 18px;
+			width: 100%;
+		}
+		
+		.nivo-caption h2.v3{
+			font-size: 18px;
+		}
+		
+		.nivo-caption p{
+			font-size: 12px;
+		}
+		
+		.siteoptions{
+			display:none;
+		}
+		
+		/*features image*/
+		.feature1-image{	
+			background: url(../images/brush-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature2-image{	
+			background: url(../images/laptop-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature3-image{
+			background: url(../images/tools-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		.feature4-image{
+			background: url(../images/support-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		/*yellow button*/
+		
+		.buttonyellow,
+		.buttonyellow:visited,
+		.buttonyellow:hover{
+			color: #a67707;
+			
+			/* fallback */ 
+			background-color: #ffe400;
+			
+			/* Safari 4-5, Chrome 1-9 */ 
+			background: url(../images/download-dark-yellow@x2.png) 20px center no-repeat 50% 50%,
+						-webkit-gradient(linear, 0% 0%, 0% 100%, from(#ffe400), to(#ffc000));
+			
+			
+			/* Safari 5.1, Chrome 10+ */ 
+			background: url(../images/download-dark-yellow@x2.png) 20px center no-repeat 50% 50%,
+						-webkit-linear-gradient(top, #ffc000, #ffe400); 
+			
+			
+			/* Firefox 3.6+ */ 
+			background: url(../images/download-dark-yellow@x2.png) 20px center no-repeat 50% 50%,
+						-moz-linear-gradient(top, #ffc000, #ffe400); 
+			 
+			
+			/* IE 10 */ 
+			background: url(../images/download-dark-yellow@x2.png) 20px center no-repeat 50% 50%,
+						-ms-linear-gradient(top, #ffc000, #ffe400); 
+			
+			
+			/* Opera 11.10+ */ 
+			background: url(../images/download-dark-yellow@x2.png) 20px center no-repeat 50% 50%,
+						-o-linear-gradient(top, #ffc000, #ffe400);
+	
+		}
+		
+		
+		/*footer wealthz logo*/
+		footer h3.logo a {
+			width: 98px;
+			height: 26px;
+			display: block;
+			background: url(../images/wealthz-logo-small@x2.png) no-repeat 0 0;
+			
+			text-indent: -9999px;
+			text-shadow: none;
+			color: transparent;
+			background-size: 100% 100%;
+		}
+		
+		/*tabs*/
+		ul.tabs li a{
+			padding: 10px;
+			padding-top: 0;
+		}
+		
+		ul.tabs-content li{
+			padding: 5px;
+		}
+		/*contact page*/
+		.sendmessage-inputbox{
+			width:100%;
+		}
+		
+		.map iframe{
+			width: 100%;
+		}
+		
+		/*portfolio*/
+		
+			/*2columns*/
+			
+		.portfolio2columns,
+		.portfolio3columns,
+		.portfolio4columns{
+			width: 768px;
+			overflow: hidden;
+		}
+		.portfolio2columns ul li,
+		.portfolio3columns ul li,
+		.portfolio4columns ul li{			
+			width: 362px;
+			height: 250px;
+				
+			overflow: hidden;
+			position: relative;
+		}
+		
+		.portfolio2columns ul li img,
+		.portfolio3columns ul li img,
+		.portfolio4columns ul li img{
+			width: 362px;
+			height: 250px;
+		}
+		
+		.port-title{
+			width: 100%;
+			font-size: 12px;
+		}
+		
+		.errorpage-number{
+			font-size: 480px;
+		}
+		
+		/*pricing table*/
+		
+		.first-column{
+			width: 150px;
+			height: auto;
+			float: left;
+		}
+		
+		.price-greybox,
+		.price-greenbox{
+			width: 150px;
+		}
+		
+		.price-greybox2,
+		.price-greenbox2{
+			width: 180px;
+		}
+		
+							
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+		
+		
+		
+		.one.column,
+    	.one.columns,                    
+    	.two.columns,                  
+    	.three.columns,               
+    	.four.columns,                 
+    	.five.columns,                 
+    	.six.columns,                     
+    	.seven.columns,                
+    	.eight.columns,                  
+    	.nine.columns,               
+    	.ten.columns,                     
+    	.eleven.columns,                
+    	.twelve.columns,            
+    	.thirteen.columns,              
+    	.fourteen.columns,             
+    	.fifteen.columns,              
+    	.sixteen.columns{
+			margin: 20px 0;
+		}
+		
+		.containerbox{
+			margin: 0 auto;
+		}  
+
+		.banner {
+			display: none;
+		}
+		
+		.boxview{
+			box-shadow: none;		
+		}
+	
+		article .three.thumbnail {
+			display: none;
+		}
+		
+		.header{
+			margin: 0;
+			display: block;
+		}
+		
+		.header-content{
+			width: 90%;
+		}
+		
+		.header h1.logo{
+			float: none;
+			display: block;
+			margin: 0px auto 0 auto;
+			padding: 20px 0 0 0;
+		}
+		
+		.header h1.logo a{
+			margin: 0 auto;
+			background: url(../images/wealthz-logoX2.png) no-repeat 0 0;
+			background-size: 100% 100%;
+			display: block;
+		}
+		
+		.bottom-content{
+			width: 90%;
+		}
+	
+		nav.primary select {
+			display: block;
+			
+		}
+		
+		nav.primary ul {
+			display: none;
+		}
+		
+		.bottom footer {
+			text-align: center;
+		}
+		
+		.powerby{
+			float: left;
+			padding: 0 0 18px 0;
+		}
+		
+		.three.columns{
+			display: block;
+			height: auto;
+			margin-bottom: 40px;
+		}
+		
+		/*social icon x2*/	
+		.facebook{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/facebook-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.facebook:hover{
+			background: url(../images/facebook-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+			
+		.twitter{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/twitter-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.twitter:hover{
+			background: url(../images/twitter-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/digg-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg:hover{
+			background: url(../images/digg-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/linkedin-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin:hover{
+			background: url(../images/linkedin-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.vimeo{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/vimeo-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.vimeo:hover{
+			background: url(../images/vimeo-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.youtube{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/youtube-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.youtube:hover{
+			background: url(../images/youtube-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.dribble{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/dribble-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.dribble:hover{
+			background: url(../images/dribble-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.stumbleupon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/stumbleupon-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.stumbleupon:hover{
+			background: url(../images/stumbleupon-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.flickricon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/flickr-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.flickricon:hover{
+			background: url(../images/flickr-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.rss{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/rss-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.rss:hover{
+			background: url(../images/rss-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+			
+		/*port menu*/
+		.portmenu{
+			display: none;
+		}
+		
+		
+		/* recent work corousel*/
+		.slide-jcarousel{
+			width: 200px;
+			min-height: 136px;
+			height: auto;
+		}
+	
+		.bgfade{
+			width: 200px;
+			height: 136px;
+			}
+			
+		.jcarousel-skin-tango .jcarousel-container-horizontal{
+	    	width: 300px;
+	    	padding: 10px 0 0 0;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-clip-horizontal {
+			width: 300px;
+	    	min-height: 136px;
+			height: auto;
+			overflow: hidden;
+			margin: 0;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-item {
+			 width: 200px;
+		     min-height: 136px;
+			height: auto;
+			 margin-right: 20px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-item-horizontal{
+			min-width: 200px;
+			min-height: 136px;
+			height: auto;
+			margin-left: 0;
+			margin-right: 20px;
+		}
+		
+			
+		/*from the blog*/
+		ul.fromtheblog{
+			width: 100%;
+		}
+		
+		ul.fromtheblog li{
+			width: 200px;
+			height: 250px;
+			margin: 0;
+		}
+		
+		ul.fromtheblog li:first-child{
+			margin: 0 20px 0 0;
+		}
+		
+		/*nivo slider style*/	
+		
+		.nivo-caption h2,
+		.nivo-caption h2.v2,
+		.nivo-caption h2.v3,
+		.nivo-caption p,
+		a.nivo-prevNav,
+		a.nivo-nextNav{
+			display: none;
+		}
+		
+		.nivo-caption div{
+			width: 200px;
+			margin: -20px 0 0 0;
+		}
+		
+		.nivo-caption h1,
+		.nivo-caption h1.v2,
+		.nivo-caption h1.v3{
+			margin: 0 0 20px 0;
+			padding: 0;
+			background: none;
+			font-size: 14px;
+			
+			color: #505050;
+
+			text-shadow: 1px 1px 0 #fff;
+			-moz-text-shadow: 1px 1px 0 #fff;
+			-webkit-text-shadow: 1px 1px 0 #fff;
+			-o-text-shadow: 1px 1px 0 #fff;
+			-ms-text-shadow: 1px 1px 0 #fff;
+			
+			line-height: 1em;
+		}
+		
+		.buttonyellow,
+		.buttonyellow:hover{
+			font-size: 10px;
+			padding: 8px 10px 8px 35px;
+			
+			background-position: 10px;
+		}
+		
+		.siteoptions{
+			display:none;
+		}
+		
+		/*our client image*/
+		ul.ourclient li span{
+			background-size: 50% 50%;
+		}
+		
+		/*features image*/
+		.feature1-image{	
+			background: url(../images/brush-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature2-image{	
+			background: url(../images/laptop-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature3-image{
+			background: url(../images/tools-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		.feature4-image{
+			background: url(../images/support-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		
+		
+		/*footer wealthz logo*/
+		footer h3.logo a {
+			width: 98px;
+			height: 26px;
+			display: block;
+			background: url(../images/wealthz-logo-small@x2.png) no-repeat 0 0;
+			
+			text-indent: -9999px;
+			text-shadow: none;
+			color: transparent;
+			background-size: 100% 100%;
+		}
+		
+		/*contact page*/
+		.sendmessage-inputbox{
+			width:100%;
+		}
+		
+		.map iframe{
+			width: 100%;
+		}
+		
+		.sidebar{
+			margin-top: 0;
+		}
+		
+		/*pricing table*/
+		.pricingtable{
+			display: none;
+		}					
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+		.shadowfeature{
+			background-size: 100% 90%;
+			}
+			
+		/*social icon x2*/	
+		.facebook{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/facebook-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.facebook:hover{
+			background: url(../images/facebook-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+			
+		.twitter{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/twitter-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.twitter:hover{
+			background: url(../images/twitter-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/digg-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg:hover{
+			background: url(../images/digg-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/linkedin-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin:hover{
+			background: url(../images/linkedin-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.vimeo{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/vimeo-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.vimeo:hover{
+			background: url(../images/vimeo-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.youtube{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/youtube-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.youtube:hover{
+			background: url(../images/youtube-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.dribble{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/dribble-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.dribble:hover{
+			background: url(../images/dribble-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.stumbleupon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/stumbleupon-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.stumbleupon:hover{
+			background: url(../images/stumbleupon-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.flickricon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/flickr-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.flickricon:hover{
+			background: url(../images/flickr-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.rss{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/rss-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.rss:hover{
+			background: url(../images/rss-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		/*port menu*/
+		.portmenu{
+			display: none;
+		}
+		
+		/* recent work corousel*/
+		.slide-jcarousel{
+			width: 200px;
+			min-height: 136px;
+			height: auto;
+		}
+	
+		.bgfade{
+			width: 200px;
+			height: 136px;
+			}
+			
+		.jcarousel-skin-tango .jcarousel-container-horizontal{
+	    	width: 420px;
+	    	min-height: 136px;
+			height: auto;
+	    	padding: 10px 0 0 0;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-clip-horizontal {
+			width: 420px;
+	    	min-height: 136px;
+			height: auto;
+			overflow: hidden;
+			margin: 0;
+		}
+	
+		.jcarousel-skin-tango .jcarousel-item {
+			 width: 200px;
+		     min-height: 136px;
+			 height: auto;
+			 margin-right: 20px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-item-horizontal{
+			min-width: 200px;
+			min-height: 136px;
+			height: auto;
+			margin-left: 0;
+			margin-right: 20px;
+		}
+		
+		
+		/*from the blog*/
+		
+		.wrap2{
+			height: 280px;
+			overflow: hidden;
+			margin: 0 0 40px 0;
+		}
+		
+		.slide-jcarousel{
+			width: 200px;
+			min-height: 136px;
+			height: auto;
+		}
+		
+		ul.fromtheblog{
+			width: 420px;
+			height: 280px;
+			margin: 10px 0 0 0;
+			display: block;
+		}
+		
+		ul.fromtheblog li{
+			width: 200px;
+			height: 280px;
+		}
+	
+		.bgfade{
+			width: 200px;
+			height: 136px;
+		}	
+
+		
+		/*nivo slider style*/	
+		
+		.nivo-caption h2,
+		.nivo-caption h2.v2,
+		.nivo-caption h2.v3,
+		.nivo-caption p,
+		a.nivo-prevNav,
+		a.nivo-nextNav{
+			display: none;
+		}
+		
+		.nivo-caption div{
+			width: 250px;
+			margin-left: 20px;
+		}
+		
+		.nivo-caption h1,
+		.nivo-caption h1.v2,
+		.nivo-caption h1.v3{
+			margin: 0 0 40px 0;
+			padding: 0;
+			background: none;
+			font-size: 18px;
+			
+			color: #505050;
+
+			text-shadow: 1px 1px 0 #fff;
+			-moz-text-shadow: 1px 1px 0 #fff;
+			-webkit-text-shadow: 1px 1px 0 #fff;
+			-o-text-shadow: 1px 1px 0 #fff;
+			-ms-text-shadow: 1px 1px 0 #fff;
+			
+			line-height: 1em;
+		}
+		
+		.buttonyellow,
+		.buttonyellow:hover{
+			font-size: 10px;
+			padding: 8px 10px 8px 35px;
+			
+			background-position: 10px;
+		}
+		
+		.siteoptions{
+			display:none;
+		}
+		
+		/*features image*/
+		.feature1-image{	
+			background: url(../images/brush-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature2-image{	
+			background: url(../images/laptop-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature3-image{
+			background: url(../images/tools-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		.feature4-image{
+			background: url(../images/support-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+				
+		/*footer wealthz logo*/
+		footer h3.logo a {
+			width: 98px;
+			height: 26px;
+			display: block;
+			background: url(../images/wealthz-logo-small@x2.png) no-repeat 0 0;
+			
+			text-indent: -9999px;
+			text-shadow: none;
+			color: transparent;
+			background-size: 100% 100%;
+		}
+		
+		/*portfolio*/
+		
+			/*2columns*/
+			
+		.portfolio2columns,
+		.portfolio3columns,
+		.portfolio4columns{
+			width: 460px;			
+			overflow: hidden;
+		}
+		
+		.portfolio2columns ul,
+		.portfolio3columns ul,
+		.portfolio4columns ul{
+			margin-top: 70px;	
+		}
+		.portfolio2columns ul li,
+		.portfolio3columns ul li,
+		.portfolio4columns ul li{			
+			width: 200px;
+			height: 130px;	
+			overflow: hidden;
+			position: relative;
+		}
+		
+		.portfolio2columns ul li img,
+		.portfolio3columns ul li img,
+		.portfolio4columns ul li img{
+			width: 100%;
+			height: auto;
+		}
+		
+		.port-title{
+			width: 100%;
+			font-size: 12px;
+		}
+		
+		.errorpage-number{
+			width: 100%;
+			height: 100px;
+			margin: 40px 0;
+			font-size: 260px;
+		}
+		
+		.price-greybox2,
+		.price-greenbox2{
+			width: 200px;
+		}
+		
+		ul.tabs li a,
+		ul.tabs li a.active{
+			font-size: 11px;
+			padding: 8px;
+			line-height: 20px;
+		}
+		
+		ul.tabs-content > li.active p{
+			font-size: 11px;
+		}
+			
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+	
+		/*sponsors*/
+		.sponsors .mini {
+			display:  none;
+		}
+		
+		.sponsors .maxi {
+			display: block;
+			float: none;
+			max-width: 100%;
+			margin: 0 0 7px 0;
+		}
+		
+		.shadowfeature{
+			background-size: 100% 90%;
+			}
+			
+			
+		/*social icon x2*/	
+		.facebook{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/facebook-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.facebook:hover{
+			background: url(../images/facebook-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+			
+		.twitter{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/twitter-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.twitter:hover{
+			background: url(../images/twitter-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/digg-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.digg:hover{
+			background: url(../images/digg-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/linkedin-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.linkedin:hover{
+			background: url(../images/linkedin-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.vimeo{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/vimeo-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.vimeo:hover{
+			background: url(../images/vimeo-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.youtube{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/youtube-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.youtube:hover{
+			background: url(../images/youtube-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.dribble{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/dribble-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.dribble:hover{
+			background: url(../images/dribble-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.stumbleupon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/stumbleupon-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.stumbleupon:hover{
+			background: url(../images/stumbleupon-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.flickricon{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/flickr-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.flickricon:hover{
+			background: url(../images/flickr-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		.rss{
+			display: block;
+			width: 36px;
+			height: 36px;
+			background: url(../images/rss-gray@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		.rss:hover{
+			background: url(../images/rss-white@x2.png) center center no-repeat;
+			background-size: 50% auto;
+		}
+		
+		
+		/*port menu*/
+		.band.portmenu{
+			display: none;
+		}
+		
+		
+		/* recent work corousel*/
+		.slide-jcarousel{
+			width: 300px;
+			height: 205px;
+		}
+	
+		.bgfade{
+			width: 300px;
+			height: 205px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-container-horizontal{
+    		width: 300px;
+    		padding: 10px 0 0 0;
+		}
+
+		.jcarousel-skin-tango .jcarousel-clip-horizontal {
+			width: 300px;
+	    	min-height: 205px;
+	    	height: auto;
+			margin: 0;
+		}
+
+		.jcarousel-skin-tango .jcarousel-item {
+			width: 300px;
+			min-height: 205px;
+	    	height: auto;
+			margin-right: 20px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-item-horizontal{
+			min-width: 300px;
+			min-height: 205px;
+	    	height: auto;
+			margin-left: 0;
+			margin-right: 20px;
+		}
+
+       .title{
+			bottom: -70px;
+			width: 300px;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-next-horizontal {
+	    	margin: 0;
+		}
+		
+		.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	    	margin: 0;
+		}
+		
+		
+		
+		
+		/*from the blog*/
+		.wrap{
+			min-height: 235px;
+			height: auto;
+		}
+		.wrap2{
+			width: 300px;
+			height: auto;
+			overflow: hidden;
+			margin-bottom: 40px;
+		}
+		
+		.slide-jcarousel{
+			width: 300px;
+			min-height: 205px;
+	    	height: auto;
+	    	overflow: hidden;
+		}
+		
+		ul.fromtheblog{
+			width: 300px;
+			height: auto;
+			margin: 10px 0 0 0;
+			display: block;
+			overflow: hidden;
+		}
+		
+		ul.fromtheblog li{
+			width: 300px;
+			height: auto;
+			display: block;
+		}
+	
+		.bgfade{
+			width: 300px;
+			height: 205px;
+			}		
+
+		
+		/*nivo slider style*/	
+		
+		.nivo-caption h2,
+		.nivo-caption h2.v2,
+		.nivo-caption h2.v3,
+		.nivo-caption p,
+		a.nivo-prevNav,
+		a.nivo-nextNav{
+			display: none;
+		}
+		
+		.nivo-caption div{
+			width: 200px;
+			margin: -20px 0 0 0;
+		}
+		
+		.nivo-caption h1,
+		.nivo-caption h1.v2,
+		.nivo-caption h1.v3{
+			margin: 0 0 20px 0;
+			padding: 0;
+			background: none;
+			font-size: 14px;
+			
+			color: #505050;
+
+			text-shadow: 1px 1px 0 #fff;
+			-moz-text-shadow: 1px 1px 0 #fff;
+			-webkit-text-shadow: 1px 1px 0 #fff;
+			-o-text-shadow: 1px 1px 0 #fff;
+			-ms-text-shadow: 1px 1px 0 #fff;
+			
+			line-height: 1em;
+		}
+		
+		.buttonyellow,
+		.buttonyellow:hover{
+			font-size: 10px;
+			padding: 8px 10px 8px 35px;
+			
+			background-position: 10px;
+		}
+		
+		.siteoptions{
+			display:none;
+		}
+		
+		/*features image*/
+		.feature1-image{	
+			background: url(../images/brush-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature2-image{	
+			background: url(../images/laptop-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.feature3-image{
+			background: url(../images/tools-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		.feature4-image{
+			background: url(../images/support-icon@x2.png) center center no-repeat;
+			background-size: 100% 100%;
+		}
+		
+		
+		.buttonyellow,
+		.buttonyellow:hover{
+			font-size: 10px;
+			padding: 8px 10px 8px 35px;
+			
+			background-position: 10px;
+		}
+			
+		/*footer wealthz logo*/
+		footer h3.logo a {
+			width: 98px;
+			height: 26px;
+			display: block;
+			background: url(../images/wealthz-logo-small@x2.png) no-repeat 0 0;
+			
+			text-indent: -9999px;
+			text-shadow: none;
+			color: transparent;
+			background-size: 100% 100%;
+		}
+		
+		/*portfolio*/
+		
+			/*2columns*/
+			
+		.portfolio2columns,
+		.portfolio3columns,
+		.portfolio4columns{
+			width: 320px;			
+			overflow: hidden;
+		}
+		
+		.portfolio2columns ul,
+		.portfolio3columns ul,
+		.portfolio4columns ul{
+			margin-top: 70px;	
+		}
+		.portfolio2columns ul li,
+		.portfolio3columns ul li,
+		.portfolio4columns ul li{			
+			width: 300px;
+			height: 200px;	
+			overflow: hidden;
+			position: relative;
+		}
+		
+		.portfolio2columns ul li img,
+		.portfolio3columns ul li img,
+		.portfolio4columns ul li img{
+			width: 100%;
+			height: auto;
+		}
+		
+		.port-title{
+			width: 100%;
+			font-size: 12px;
+		}
+		
+		.errorpage-number{
+			width: 100%;
+			height: 100px;
+			margin: 40px 0;
+			font-size: 180px;
+		}
+		
+		.price-greybox2,
+		.price-greenbox2{
+			width: 100%;
+		}
+		
+		ul.tabs li a,
+		ul.tabs li a.active{
+			font-size: 9px;
+			padding: 5px;
+			line-height: 25px;
+		}
+		
+		ul.tabs-content > li.active p{
+			font-size: 11px;
+		}				
+	}
