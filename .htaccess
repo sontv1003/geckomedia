@@ -10,3 +10,5 @@ RewriteRule . /geckomedia/index.php [L]
 </IfModule>
 
 # END WordPress
+
+ErrorDocument 404 /index.php?error=404

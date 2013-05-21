@@ -68,6 +68,20 @@ function twentytwelve_setup() {
 }
 add_action( 'after_setup_theme', 'twentytwelve_setup' );
 
+    // Timthumb
+    function get_featured_img($post_id){
+        $img_id = get_post_thumbnail_id($post_id); // lấy id của hình
+        $images=wp_get_attachment_image_src( $img_id, false, false ); // lấy link hình featured
+        return $images[0]; // 0: link hình ; 1: width ; 2: height
+    }
+    
+    function thumb_img($post_id,$h,$w,$q,$alt){
+        echo '<img align="middle" src="';
+        echo bloginfo('template_url');
+        echo '/timthumb.php?src='.get_featured_img($post_id).'&amp;h='.$h.'&amp;w='.$w.'&amp;q='.$q.'" alt="'.$alt.'" />';  
+    }
+
+// menus
 function register_my_menus() {
   register_nav_menus(
     array(
