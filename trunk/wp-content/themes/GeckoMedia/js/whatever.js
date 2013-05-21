@@ -267,63 +267,63 @@ $('.siteoptions-container ul li').click(function(){
 });
 
 $('.bg1').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/tileable_wood_texture.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/tileable_wood_texture.png) fixed');
 });
 
 $('.bg2').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/grey.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/grey.png) fixed');
 });
 
 $('.bg3').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/subtle_dots.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/subtle_dots.png) fixed');
 });
 
 $('.bg4').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/tiny_grid.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/tiny_grid.png) fixed');
 });
 
 $('.bg5').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/bright_squares.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/bright_squares.png) fixed');
 });
 
 $('.bg6').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/light_wool.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/light_wool.png) fixed');
 });
 
 $('.bg7').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/hexellence.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/hexellence.png) fixed');
 });
 
 $('.bg8').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/perforated_white_leather.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/perforated_white_leather.png) fixed');
 });
 
 $('.bg9').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/ravenna.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/ravenna.png) fixed');
 });
 
 $('.bg10').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/vichy.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/vichy.png) fixed');
 });
 
 $('.bg11').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/dark_wood.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/dark_wood.png) fixed');
 });
 
 $('.bg12').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/pinstriped_suit.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/pinstriped_suit.png) fixed');
 });
 
 $('.bg13').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/carbon_fibre.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/carbon_fibre.png) fixed');
 });
 
 $('.bg14').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/low_contrast_linen.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/low_contrast_linen.png) fixed');
 });
 
 $('.bg15').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/woven.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/woven.png) fixed');
 });
 
 	//clear box view

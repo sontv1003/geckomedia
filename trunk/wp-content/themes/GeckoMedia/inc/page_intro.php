@@ -7,8 +7,8 @@
 				<div class="container">
 		
 					<div class="thirteen columns">					
-						<h1>services</h1>
-						<h4>These are what we can do for you, Just what you need it.</h4>						
+						<h1><?php echo get_post_meta($post->ID,'h1_band',true); ?></h1>
+						<h4><?php echo get_post_meta($post->ID,'h4_band',true); ?></h4>						
 					</div>
 					
 					<div class="three columns">
