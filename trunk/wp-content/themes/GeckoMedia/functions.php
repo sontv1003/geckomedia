@@ -64,7 +64,10 @@ function twentytwelve_setup() {
                     'sidebar'=>"Sidebar"
                 )
          );
-
+         // Remove auto add tag p and br
+        remove_filter ('the_content', 'wpautop');
+        remove_filter ('the_content', 'wpautobr'); 
+        
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
 	set_post_thumbnail_size( 624, 9999 ); // Unlimited height, soft crop
