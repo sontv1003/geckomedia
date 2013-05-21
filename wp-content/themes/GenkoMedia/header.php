@@ -18,17 +18,30 @@
 
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="viewport" content="width=device-width" />
+<title><?php
+	/*
+	 * Print the <title> tag based on what is being viewed.
+	 */
+	global $page, $paged,$cat_id, $wpdb;
 
-	<!-- Basic Page Needs
-  ================================================== -->
-	<title>GECKO MEDIA</title>
-	<meta name="description" content="Công ty thiết kế website uy tín, chất lượng. Dịch vụ thiết kế website theo đúng chuẩn SEO được đánh giá cao bởi các doanh nghiệp trong và ngoài nước. Hãy cùng chúng tôi giúp việc kinh doanh của bạn phát triển mạnh trên internet! Hotline: 097.642.9086">
-	<meta name="author" content="thiet ke website, thiết kế website, dich vu thiet ke website, dịch vụ thiết kế website, cong ty thiet ke website, công ty thiết kế website, thiet ke bo thuong hieu, Thiết kế bộ thương Hiệu, dich vu SEO & Adword, dịch vụ Seo & Adword, domain, Hosting.">
+	wp_title( '|', true, 'right' );
 
-	<!-- Mobile Specific Metas
-  ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	// Add the blog name.
+	bloginfo( 'name' );
 
+	// Add the blog description for the home/front page.
+	$site_description = get_bloginfo( 'description', 'display' );
+	if ( $site_description && ( is_home() || is_front_page() ) )
+		echo " | $site_description";
+
+	// Add a page number if necessary:
+	if ( $paged >= 2 || $page >= 2 )
+		echo ' | ' . sprintf( __( 'Page %s', 'twentyeleven' ), max( $paged, $page ) );
+
+	?></title>
+	<link rel="profile" href="http://gmpg.org/xfn/11" />
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquerylatest.min.js"></script>
 	<!-- CSS
   ================================================== -->
 
@@ -62,21 +75,8 @@
 	<link rel="apple-touch-icon" href="<?php echo bloginfo('template_directory');?>/images/apple-touch-icon.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo bloginfo('template_directory');?>/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo bloginfo('template_directory');?>/images/apple-touch-icon-114x114.png">
-	<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39996488-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-<?php wp_head(); ?>
+	
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
