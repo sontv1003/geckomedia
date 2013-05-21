@@ -41,7 +41,6 @@
 
 	?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.8.2.min.js"></script>
 	<!-- CSS
   ================================================== -->
 
@@ -91,9 +90,7 @@
 					<div class="navigation">
 		
 						<nav class="primary">					
-								<ul id="nav">								
-									<?php wp_nav_menu(array('theme_location'=> 'header','container' =>''));?>									
-                                                                </ul>
+									<?php wp_nav_menu(array('theme_location'=> 'header','container' =>'','menu_id' => 'nav',));?>									
 						</nav><!--end container-->
 						
 						<div class="clearfix"></div>

@@ -57,13 +57,7 @@ function twentytwelve_setup() {
 	add_theme_support( 'post-formats', array( 'aside', 'image', 'link', 'quote', 'status' ) );
 
         //creat menu support for theme
-	add_theme_support('menus');
-        register_nav_menus(
-                array(
-                    'header'=>"Header",
-                    'sidebar'=>"Sidebar"
-                )
-         );
+       
          // Remove auto add tag p and br
         remove_filter ('the_content', 'wpautop');
         remove_filter ('the_content', 'wpautobr'); 
@@ -74,6 +68,15 @@ function twentytwelve_setup() {
 }
 add_action( 'after_setup_theme', 'twentytwelve_setup' );
 
+function register_my_menus() {
+  register_nav_menus(
+    array(
+      'header' => __( 'Header' ),
+      'sidebar' => __( 'Sidebar' )
+    )
+  );
+}
+add_action( 'init', 'register_my_menus' );
 /**
  * Enqueues scripts and styles for front-end.
  *
