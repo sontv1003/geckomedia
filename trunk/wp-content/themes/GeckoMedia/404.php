@@ -1,29 +1,58 @@
-<?php
-/**
- * The template for displaying 404 pages (Not Found).
- *
- * @package WordPress
- * @subpackage blankSlate
- * @since blankSlate 3.5
- */
+<?php 
+include (TEMPLATEPATH . '/inc/site_option.php');
+get_header();
+?>
+<!--page intro-->
+		
+		<div class="band pageintro">
+		
+			<div class="pageintro-content">
+			
+				<div class="container">
+		
+					<div class="thirteen columns">					
+						<h1>404</h1>
+						<h4>404 page not found</h4>						
+					</div>
+					
+					<div class="three columns">
+						<form name="search" method="post" action="#">
+							<input type="text" id="search">
+							<input type="submit" name="button" id="button" value="">
+						</form>
+					</div>
+				
+				</div>
+				
+		    </div>    
+		</div>
+		
+		
+		<!--end page intro-->
+		
+		
+		<div class="shadow"><!--shadow-->
+			<div class="container">
+				<div class="portmenu-shadow"></div>
+			</div>
+        </div><!--end shadow-->
+        
+    <div class="container">
+                <div class="containerbox">
 
-get_header(); ?>
+                    <div class="sixteen columns">                    
+                        <div class="errorpage">
+                            <h3>Oops! This page might be no longer available or never existed.<br />
+                            You can try to search for some content above</h3>
 
-	<div id="primary" class="site-content">
-		<div id="content" role="main">
+                            <div class="errorpage-number">
+                            4<span class="green">0</span>4	
+                            </div>
 
-			<article id="post-0" class="post error404 no-results not-found">
-				<header class="entry-header">
-					<h1><?php _e( 'This is somewhat embarrassing, isn&rsquo;t it?', 'twentytwelve' ); ?></h1>
-				</header>
+                            <h3>Or you can view our <a href="#">portfolio</a>, Even read the <a href="#">blog</a></h3>
+                        </div>                   
+                    </div>
 
-				<div class="entry-content">
-					<p><?php _e( 'It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help.', 'twentytwelve' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
-			</article><!-- #post-0 -->
-
-		</div><!-- #content -->
-	</div><!-- #primary -->
-
-<?php get_footer(); ?>
+                </div><!--end containerbox -->
+            </div><!--end container -->
+     <?php get_footer();?>
