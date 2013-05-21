@@ -271,11 +271,11 @@ $('.bg1').click(function(){
 });
 
 $('.bg2').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia//images/grey.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/grey.png) fixed');
 });
 
 $('.bg3').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia//images/subtle_dots.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GenkoMedia/images/subtle_dots.png) fixed');
 });
 
 $('.bg4').click(function(){
