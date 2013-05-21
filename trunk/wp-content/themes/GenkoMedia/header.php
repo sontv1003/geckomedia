@@ -41,7 +41,7 @@
 
 	?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
-	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquerylatest.min.js"></script>
+	<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery-1.8.2.min.js"></script>
 	<!-- CSS
   ================================================== -->
 
