@@ -8,40 +8,8 @@
 <?php 
 get_header();
 include (TEMPLATEPATH . '/inc/site_option.php');
+include (TEMPLATEPATH . '/inc/page_intro.php');
 ?>
-
-<!--page intro-->
-		
-		<div class="band pageintro">
-		
-			<div class="pageintro-content">
-			
-				<div class="container">
-		
-					<div class="thirteen columns">					
-						<h1>300 Mẫu Website cho bạn lựa chọn</h1>
-						<h4>Thiết kế Web nhanh và hiệu quả, chi phí thấp</h4>						
-					</div>
-					
-					<div class="three columns">
-						<form name="search" method="post" action="#">
-							<input type="text" id="search">
-							<input type="submit" name="button" id="button" value="">
-						</form>
-					</div>
-				
-				</div>
-				
-		    </div>    
-		</div>		
-		<!--end page intro-->
-		
-		
-		<div class="shadow"><!--shadow-->
-			<div class="container">
-				<div class="portmenu-shadow"></div>
-			</div>
-        </div><!--end shadow-->
         
         <div class="maincontainer"><!-- start main container -->
         

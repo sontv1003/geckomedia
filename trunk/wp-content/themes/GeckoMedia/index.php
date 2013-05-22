@@ -24,7 +24,7 @@ include (TEMPLATEPATH . '/inc/band_index.php');
                             <div class="feature2-image"></div>				
                             <h2>Quáng bá website</h2>
                             <p>Được tối ưu SEO onpage và thân thiện với các bộ máy tìm kiếm, đồng thời hệ thống website vệ tinh của <a href="http://geckomedia.vn">Gecko Media</a> giúp cho việc SEO trở nên dễ dàng.</p>
-                            <a href="#"><button class="greybutton">Xem tiếp</button></a>
+                            <a href="<?php echo get_permalink(116); ?>"><button class="greybutton">Xem tiếp</button></a>
                         </div>
                     </div>
                     
@@ -74,117 +74,8 @@ include (TEMPLATEPATH . '/inc/band_index.php');
                         <h1 class="heading">
                             <span>Dự án tiêu biểu</span>
                         </h1>
-                        
-                        <div class="wrap">
-             
-                            <ul id="mycarousel" class="jcarousel-skin-tango">
-                                <li><a href="http://thietkenhadep.vn/" target="_blank">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Tư vấn thiết kế kiến trúc Perfect Archi</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port10.jpg" alt="Thiết kế website chuyên nghiệp">
-                                    </div>                    
-                                    </a>
-                                </li> 
-                                 <li><a href="http://banhphuthe.com/" target="_blank">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Dịch vụ BÁNH PHU THÊ Bắc Ninh</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port11.jpg" alt="Thiết kế website chuyên nghiệp">
-                                    </div>                    
-                                    </a>
-                                </li> 
-                                
-                                                              
-                                <li><a href="http://www.booksearch.sg" target="_blank">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Dịch vụ mua bán sách online của Singapore.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port7.jpg" alt="port3">
-                                    </div>                    
-                                    </a>
-                                </li>                                
-                                                             
-                                <li><a href="http://nobuviet.com" target="_blank">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Dịch vụ Nhà hàng Nobu Việt.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port8.jpg" alt="port5">
-                                    </div>                    
-                                    </a>
-                                </li>                                
-                                                           
-                                <li><a href="http://artexthanglong-hometextile.com" target="_blank">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Dịch vụ cung cấp Chăn Ga Gối Đệm.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port1.jpg" alt="port7">
-                                    </div>                    
-                                    </a>
-                                </li>                                
-                                <li><a href="http://linhkienthangmay.com.vn/" target="_blank" >
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Cung cấp linh kiện thang máy New Home.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port2.jpg" alt="port8">
-                                    </div>                    
-                                    </a>
-                                </li>                                
-                                <li><a href="http://itoursvietnam.com/" target="_blank">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Dịch vụ du lịch itoursvietnam.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port3.jpg" alt="port9">  
-                                    </div>                  
-                                    </a>
-                                </li>   
-                                 <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website Dịch vụ khách sạn.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port6.jpg" alt="port4">
-                                    </div>                    
-                                    </a>
-                                </li>  
-                                <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Website trường mầu non Vischool</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port4.jpg" alt="port1">
-                                    </div>                    
-                                    </a>
-                                </li>    
-                                 <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>  
-                                    <p class="title">Website Dịch vụ Thời Trang Fashion</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port5.jpg" alt="port2">
-                                    </div>                    
-                                    </a>
-                                </li> 
-                                 <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom">+</span>
-                                    <p class="title">Thiết kế các App cho website công ty & các dịch vụ khác.</p>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/port9.jpg" alt="port6">
-                                    </div>                    
-                                    </a>
-                                </li>       
-                                                       
-                             </ul> 
-                                        
-                        </div>                        
+                       <?php include (TEMPLATEPATH . '/inc/query_du_an_tieu_bieu.php'); ?>
+                                              
                     </div><!--end work-->
                 
             	</div><!--end containerbox -->
@@ -269,6 +160,4 @@ include (TEMPLATEPATH . '/inc/band_index.php');
 			</div><!--end container -->
 		
         </div><!-- end maincontainer -->	
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
