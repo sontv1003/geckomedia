@@ -2875,10 +2875,10 @@ ul.port-list li.list6{
 }
 
 .blogcategories ul li a{
+        text-decoration: none;
 	padding: 5px 5px 5px 25px;
 	display: block;
 	border-bottom: 1px solid #e7e7e7;
-	
 	background: url(../images/list-arrow-dotted-grey.png) 10px center no-repeat;
 }
 
@@ -2887,6 +2887,7 @@ ul.port-list li.list6{
 }
 
 .blogcategories ul li a:hover{
+        color: #73a91c;
 	background: url(../images/list-arrow-dotted.png) 10px center no-repeat;
 }
 

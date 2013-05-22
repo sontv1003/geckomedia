@@ -75,6 +75,30 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo bloginfo('template_directory');?>/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo bloginfo('template_directory');?>/images/apple-touch-icon-114x114.png">
 	
+        <!-- JS
+================================================== -->
+        <script type="text/javascript" src="<?php echo bloginfo('template_directory');?>/js/jquery-1.8.2.min.js"></script>
+        
+        <!--instantiate js plugins-->
+        <script type="text/javascript" src="<?php echo bloginfo('template_directory');?>/js/jquery.jcarousel.js"></script>
+        <script type="text/javascript" src="<?php echo bloginfo('template_directory');?>/js/whatever.js"></script>
+            <!--[if IE 8]>
+                    <script src="<?php echo bloginfo('template_directory');?>/js/whateverIE8.js"></script>
+            <![endif]-->  
+
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-39996488-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+
+          </script>	
+          
 	<?php wp_head(); ?>
 </head>
 

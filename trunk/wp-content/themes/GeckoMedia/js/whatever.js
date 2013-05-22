@@ -267,35 +267,35 @@ $('.siteoptions-container ul li').click(function(){
 });
 
 $('.bg1').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/tileable_wood_texture.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/tileable_wood_texture.png) fixed');
 });
 
 $('.bg2').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/grey.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/grey.png) fixed');
 });
 
 $('.bg3').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/subtle_dots.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/subtle_dots.png) fixed');
 });
 
 $('.bg4').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/tiny_grid.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/tiny_grid.png) fixed');
 });
 
 $('.bg5').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/bright_squares.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/bright_squares.png) fixed');
 });
 
 $('.bg6').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/light_wool.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/light_wool.png) fixed');
 });
 
 $('.bg7').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/hexellence.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/hexellence.png) fixed');
 });
 
 $('.bg8').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/perforated_white_leather.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/perforated_white_leather.png) fixed');
 });
 
 $('.bg9').click(function(){

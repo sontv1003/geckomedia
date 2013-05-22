@@ -6,8 +6,8 @@
  */
 ?>
 <?php 
-include (TEMPLATEPATH . '/inc/site_option.php');
 get_header();
+include (TEMPLATEPATH . '/inc/site_option.php');
 ?>
 
 <!--page intro-->
