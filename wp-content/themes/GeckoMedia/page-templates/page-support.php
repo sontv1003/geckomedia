@@ -4,8 +4,8 @@
  */
 ?>
 <?php 
-include (TEMPLATEPATH . '/inc/site_option.php');
 get_header();
+include (TEMPLATEPATH . '/inc/site_option.php');
 include (TEMPLATEPATH . '/inc/page_intro.php');
 ?>
 <div class="maincontainer"><!-- start main container -->

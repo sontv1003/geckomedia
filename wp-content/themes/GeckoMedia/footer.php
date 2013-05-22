@@ -83,28 +83,18 @@
 
 <div id="toTop">Top</div>
 
-<!-- JS
-================================================== -->
-<script type="text/javascript" src="<?php echo bloginfo('template_directory');?>/js/jquery-1.8.2.min.js"></script>
-<script src="<?php echo bloginfo('template_directory');?>/js/tabs.js"></script>
+
+<script  src="<?php echo bloginfo('template_directory');?>/js/tabs.js"></script>
 
 <!--nivo slider-->
-<script src="<?php echo bloginfo('template_directory');?>/js/jquery.nivo.slider.js"></script>
+<script  src="<?php echo bloginfo('template_directory');?>/js/jquery.nivo.slider.js"></script>
 
 <!--plugins-->
-<script src="<?php echo bloginfo('template_directory');?>/js/jquery.tweet.js"></script>	
-<script src="<?php echo bloginfo('template_directory');?>/js/jquery.flickrush.js"></script>	
-<script src="<?php echo bloginfo('template_directory');?>/js/jquery.flexslider.js"></script>
-<script src="<?php echo bloginfo('template_directory');?>/js/simple.carousel.js"></script>
-<script src="<?php echo bloginfo('template_directory');?>/js/jquery-ui.min.js"></script>	
-
-<!--instantiate js plugins-->
-<script src="<?php echo bloginfo('template_directory');?>/js/whatever.js"></script>	
-<script src="<?php echo bloginfo('template_directory');?>/js/jquery.jcarousel.js"></script>
-
-<!--[if IE 8]>
-        <script src="javascripts/whateverIE8.js"></script>
-<![endif]-->
+        <script src="<?php echo bloginfo('template_directory');?>/js/jquery.tweet.js"></script>	
+        <script src="<?php echo bloginfo('template_directory');?>/js/jquery.flickrush.js"></script>	
+        <script src="<?php echo bloginfo('template_directory');?>/js/jquery.flexslider.js"></script>
+        <script src="<?php echo bloginfo('template_directory');?>/js/simple.carousel.js"></script>
+        <script src="<?php echo bloginfo('template_directory');?>/js/jquery-ui.min.js"></script>
 
 <!-- End Document
 ================================================== -->

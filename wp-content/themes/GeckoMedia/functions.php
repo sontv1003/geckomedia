@@ -75,10 +75,10 @@ add_action( 'after_setup_theme', 'twentytwelve_setup' );
         return $images[0]; // 0: link hình ; 1: width ; 2: height
     }
     
-    function thumb_img($post_id,$h,$w,$q,$alt){
+    function thumb_img($post_id,$w,$h,$q,$alt){
         echo '<img align="middle" src="';
         echo bloginfo('template_url');
-        echo '/timthumb.php?src='.get_featured_img($post_id).'&amp;h='.$h.'&amp;w='.$w.'&amp;q='.$q.'" alt="'.$alt.'" />';  
+        echo '/timthumb.php?src='.get_featured_img($post_id).'&amp;w='.$w.'&amp;h='.$h.'&amp;q='.$q.'" alt="'.$alt.'" />';  
     }
 
 // menus
@@ -86,7 +86,7 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'header' => __( 'Header' ),
-      'sidebar' => __( 'Sidebar' )
+      'sidebar-menu' => __( 'Sidebar' )
     )
   );
 }
