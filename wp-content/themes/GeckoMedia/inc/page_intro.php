@@ -7,15 +7,12 @@
 				<div class="container">
 		
 					<div class="thirteen columns">					
-						<h1><?php echo get_post_meta($post->ID,'h1_band',true); ?></h1>
-						<h4><?php echo get_post_meta($post->ID,'h4_band',true); ?></h4>						
+                                            <h1><?php the_field('heading_banner'); ?></h1>
+						<h4><?php the_field('text_banner'); ?></h4>						
 					</div>
 					
 					<div class="three columns">
-						<form name="search" method="post" action="#">
-							<input type="text" id="search">
-							<input type="submit" name="button" id="button" value="">
-						</form>
+						 <?php get_search_form();?>
 					</div>
 				
 				</div>

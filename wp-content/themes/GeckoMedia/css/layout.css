@@ -460,7 +460,7 @@ nav.primary ul li a:hover {
 	border-bottom: 2px solid #73a91c;
 	cursor: pointer;
 }
-.current-menu-item a{
+li.current-menu-item a{
 	background: #ffffff;
 	color: #505050 !important;
 	padding: 36px 25px 34px 25px;
@@ -3784,4 +3784,47 @@ div.flickr img:hover{
 }
 .ja-col li .link a.yahoo {
     margin: 0 0 7px;
+}
+
+
+/************  SEARCH  ***************/
+/************  SEARCH  ***************/
+body.search #search-wrap{
+    width: 950px;margin: 0 auto; padding: 20px;
+    background-color: #fff;
+}
+body.search #search-wrap h2{
+    color: red;
+    font-size: 36px;
+}
+body.search #search-wrap .navigation{
+    margin: 20px 0;
+    font-size: 13px;
+}
+body.search #search-wrap .post{
+    margin: 15px 0;width: 700px; padding: 10px; border-bottom: 1px solid #ccccff;
+}
+body.search #search-wrap h2 a{
+    font-size: 20px;
+    color: #197acb;
+}
+body.search #search-wrap h2 a:hover{
+    color: #0808f9;
+}
+body.search #search-wrap .post .meta{
+    font-size: 12px; margin: 10px 0;
+} 
+body.search #search-wrap .post .entry{
+     font-size: 12px;line-height: 20px;
+}
+body.search #search-wrap .read-more a{
+    font-size: 14px;
+    color: #f3830d;
+}
+body.search #search-wrap .read-more a:hover{
+     text-decoration:underline; 
+}
+
+body.search #search-wrap .page-title{
+    color: #ff6633;font-size: 36px;
 }
