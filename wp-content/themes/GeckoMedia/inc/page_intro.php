@@ -7,8 +7,8 @@
 				<div class="container">
 		
 					<div class="thirteen columns">					
-                                            <h1><?php the_field('heading_banner'); ?></h1>
-						<h4><?php the_field('text_banner'); ?></h4>						
+                                            <h1><?php echo get_field('heading_banner'); ?></h1>
+						<h4><?php echo get_field('text_banner'); ?></h4>						
 					</div>
 					
 					<div class="three columns">
