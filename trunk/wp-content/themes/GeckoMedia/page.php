@@ -22,32 +22,33 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
         <div class="containerbox">
             <div class="twelve columns"><!--12 columns-->
             
-            <div class="portfolio">
-<!--              <div class="port-nav">
+             <div class="portfolio">
+              <div class="port-nav">
                 <ul>
                   <li class="prev"></li>
                   <li class="grid"></li>
                   <li class="next"></li>
                 </ul>
-              </div>-->
-              <?php if(have_posts()) : while (have_posts()): the_post();  ?>
-                            <?php  the_content() ?>
-                            <?php  endwhile;  else : ?>
-                            <p> không Có nội dung </p>
-                            <?php endif; ?>
-              <div class="shadow-big"></div>
+              </div>
+              <h4><?php the_field('tieu_de_bai_viet'); ?></h4>
+              <div class="port-img"> <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                                    <img src="<?php echo $url ?>"  </div>
+              </div>
+               <div class="shadow-big"></div>
             </div>
             <!-- portfolio desc--> 
             <!-- portfolio desc-->
             <div class="twelve columns alpha">
-              <div id="mc"> 
                 <!-- AddThis Button BEGIN --> 
-                
+                <?php if(have_posts()) : while (have_posts()): the_post();  ?>
+                            <?php  the_content() ?>
+                            <?php  endwhile;  else : ?>
+                            <p> không Có nội dung </p>
+                            <?php endif; ?>
                 <!-- AddThis Button END -->
                 
               </div>
               <div class="clear"></div>
-            </div>
             <div class="twelve columns alpha">
               <h1 class="heading"><span>Dự án Mới</span></h1>
               <?php include (TEMPLATEPATH . '/inc/query_du_an_moi.php'); ?>
@@ -55,6 +56,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
             <!--end related work--> 
             
           </div>
+           
           <!--end 12 columns-->
 
             <?php get_sidebar();?>
