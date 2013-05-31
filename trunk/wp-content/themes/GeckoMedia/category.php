@@ -1,38 +1,73 @@
 <?php
+/**
+ * The template for displaying Archive pages.
+ *
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
+ *
+ * If you'd like to further customize these archive views, you may create a
+ * new template file for each specific one. For example, Twenty Twelve already
+ * has tag.php for Tag archives, category.php for Category archives, and
+ * author.php for Author archives.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package WordPress
+ * @subpackage blankSlate
+ * @since blankSlate 3.5
+ */
+ ?>
+<?php 
+get_header();
+include (TEMPLATEPATH . '/inc/site_option.php');
+include (TEMPLATEPATH . '/inc/page_intro.php');
+?>
+<div class="maincontainer"><!-- start main container -->
+    <div class="container">
+        <div class="containerbox">
+            <div class="twelve columns"><!--12 columns-->
+             
+               <?php  
+                $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
+                <?php query_posts( array( 'cat' => 22, 'paged' => $paged,'showposts'=>4 ) ); ?>           
 
-get_header(); ?>
+                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                                <div class="blog-item">				                	
 
-		<div id="content" role="main">
+                                              <h4><?php the_title(); ?></h4>
+                                              <h5><span class="by">By: </span><?php the_author();?></h5>
+                                              <ul>
+                                                  <li class="date"> <?php the_time('F jS, Y');?></li>
+                                                  <li class="view"><?php the_meta();?> </li>
+                                                      <li class="comment"><?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?></li>
+                                                      <li class="tag"><?php the_tags('','-',''); ?></li>
+                                              </ul>             		
 
-		<?php if ( have_posts() ) : ?>
-			<header class="archive-header">
-				<h1><?php printf( __( 'Category Archives: %s', 'twentytwelve' ), '<span>' . single_cat_title( '', false ) . '</span>' ); ?></h1>
 
-			<?php if ( category_description() ) : // Show an optional category description ?>
-				<div class="archive-meta"><?php echo category_description(); ?></div>
-			<?php endif; ?>
-			</header><!-- .archive-header -->
+                                              <div class="blog-img">
+                                                      <?php thumb_img($post->ID, '940', '390', '100', get_the_title()); ?>
+                                              </div>
+                                              <div class="shadow-big"></div> 
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) : the_post();
+                                              <p><?php echo substr( get_the_excerpt(), 0, strrpos( substr( get_the_excerpt(), 0,990), ' ' ) ).' ...'; ?></p>  
+                                                  <a href="<?php the_permalink();?>"><button class="greybutton">read more</button></a>
 
-				/* Include the post format-specific template for the content. If you want to
-				 * this in a child theme then include a file called called content-___.php
-				 * (where ___ is the post format) and that will be used instead.
-				 */
-				get_template_part( 'content', get_post_format() );
+                                              <div class="lines"></div>
 
-			endwhile;
+                            </div>
+                  <?php endwhile;  endif; ?> 
 
-			twentytwelve_content_nav( 'nav-below' );
-			?>
+              <!-- Start Pagination - WP-PageNavi -->
+              <?php wp_pagenavi(); ?>
+              <!-- End Pagination -->   
+             <?php wp_reset_query(); ?>	 
+         </div> <!--end 12 columns-->
+         
+                <?php get_sidebar();?>
+           
+        </div><!--end containerbox--> 
+    </div><!--end container--> 
+</div><!--end main container--> 
 
-		<?php else : ?>
-			<?php get_template_part( 'content', 'none' ); ?>
-		<?php endif; ?>
 
-		</div><!-- #content -->
-
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -1,7 +1,8 @@
 <?php
 /**
+ *  Category Template: Cat-news
  */
- ?>
+?>
 <?php 
 get_header();
 include (TEMPLATEPATH . '/inc/site_option.php');
@@ -14,9 +15,8 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
              
                <?php  
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-                <?php query_posts( array( 'cat' => 22, 'paged' => $paged,'showposts'=>4 ) ); ?>           
-
-                <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+                <?php $news = new WP_Query('showposts=4&cat=22&paged='.$paged); ?>  
+                <?php while ($news->have_posts()) : $news->the_post(); ?>
                                 <div class="blog-item">				                	
 
                                               <h4><?php the_title(); ?></h4>
@@ -40,10 +40,13 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                                               <div class="lines"></div>
 
                             </div>
-                  <?php endwhile;  endif; ?> 
+                  <?php endwhile;?> 
 
               <!-- Start Pagination - WP-PageNavi -->
-              <?php wp_pagenavi(); ?>
+              <?php
+                if(function_exists('wp_pagenavi')){
+                  wp_pagenavi(array('query' =>$news));
+                } ?>
               <!-- End Pagination -->   
              <?php wp_reset_query(); ?>	 
          </div> <!--end 12 columns-->
