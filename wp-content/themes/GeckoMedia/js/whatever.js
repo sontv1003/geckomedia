@@ -299,31 +299,31 @@ $('.bg8').click(function(){
 });
 
 $('.bg9').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/ravenna.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/ravenna.png) fixed');
 });
 
 $('.bg10').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/vichy.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/vichy.png) fixed');
 });
 
 $('.bg11').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/dark_wood.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/dark_wood.png) fixed');
 });
 
 $('.bg12').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/pinstriped_suit.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/pinstriped_suit.png) fixed');
 });
 
 $('.bg13').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/carbon_fibre.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/carbon_fibre.png) fixed');
 });
 
 $('.bg14').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/low_contrast_linen.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/low_contrast_linen.png) fixed');
 });
 
 $('.bg15').click(function(){
-	$('.boxcontainer').css('background','url(http://localhost/gecko/wp-content/themes/GeckoMedia/images/woven.png) fixed');
+	$('.boxcontainer').css('background','url(http://localhost/geckomedia/wp-content/themes/GeckoMedia/images/woven.png) fixed');
 });
 
 	//clear box view

@@ -58,3 +58,4 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
 
         
         </div><!--end main container-->
+<?php get_footer() ?>
