@@ -2357,7 +2357,8 @@ ul.tabslist li{
 	margin-right: 0px;
 }
 
-.sendmessage textarea{
+
+textarea{
 	float: left;
 	
 	border: 1px solid #e7e7e7;
@@ -2391,7 +2392,7 @@ ul.tabslist li{
 	-o-box-sizing: border-box;
 }
 
-.sendmessage textarea.watermark2{
+.watermark2 textarea{
 	color: #dbdbdb;
 	font-style: italic;
 	font-size: 12px;
@@ -2399,7 +2400,7 @@ ul.tabslist li{
 }
 
 .sendmessage input[type=text]:focus,
-.sendmessage textarea:focus,
+textarea:focus,
 .sendmessage-inputbox:focus{
 	border: 1px solid #73a91c;
 }
