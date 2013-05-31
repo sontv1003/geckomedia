@@ -91,6 +91,62 @@ function register_my_menus() {
   );
 }
 add_action( 'init', 'register_my_menus' );
+
+
+
+ // Hien thi luot xem bai viet
+
+function getPostViews($postID){
+   $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+        return "0";
+    }
+    return $count;
+}
+function setPostViews($postID) {
+    $count_key = 'post_views_count';
+    $count = get_post_meta($postID, $count_key, true);
+    if($count==''){
+        $count = 0;
+        delete_post_meta($postID, $count_key);
+        add_post_meta($postID, $count_key, '0');
+    }else{
+        $count++;
+        update_post_meta($postID, $count_key, $count);
+    }
+
+}
+?>
+
+
+<?php
+//Form list Comment
+
+function gecko_media_comment($comment, $args, $depth)    {
+    $GLOBALS['comment'] = $comment; ?>
+    <li>
+        
+           <?php echo get_avatar($comment, $size='60', $default='<path_to_url>'); ?>
+            <div class="comment-details">
+                <span class="c-name">
+                    <?php printf(__('<span class="fn">%s</span>'), get_comment_author_link()); ?>
+                    <?php if($comment->comment_approved == '0') : ?>
+                    <em><?php echo 'Your coment is waiting for moderation.';?></em>
+                    <?php endif; ?>
+                </span>&#149;
+                <span class="reply"><?php comment_reply_link(array_merge($args,array('depth' => $depth, 'max_depth'=> $args['max_depth'])));?></span>
+                <p> <?php printf(get_comment_date());?><?php edit_comment_link(__('(Edit)'),' ',''); ?></p>
+                <p><?php comment_text(); ?></p>
+            </div>                 				
+    
+    <?php } ?>
+<?php 
+        
+
+
 /**
  * Enqueues scripts and styles for front-end.
  *

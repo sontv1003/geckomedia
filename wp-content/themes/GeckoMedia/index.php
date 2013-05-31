@@ -82,58 +82,14 @@ include (TEMPLATEPATH . '/inc/band_index.php');
              </div><!--end container -->
                          
             
-			 <div class="container">
-				<div class="containerbox">
+	<div class="container">
+	     <div class="containerbox">
                 
-                	<div class="twelve columns"><!--from the blog-->
+                    <div class="twelve columns"><!--from the blog-->
                     
                         <h1 class="heading"><span>Tin Công nghệ mới</span></h1>
-                        
-                        <div class="wrap2">
-             
-                            <ul class="fromtheblog">
-                                <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom2">+</span>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/blog3.jpg" alt="blog1">  
-                                    </div>
-                                    
-                                    <h6>Xu hướng quảng cáo trên mạng xá hội</h6>
-                                    <span class="date">10 Sep 2012 | 8 Comments</span>
-                                    <p>là phần mềm hỗ trợ bạn quảng cáo thông tin/sản phẩm của mình trên Mạng xã hội lớn nhất thế giới</p>                
-                                    </a>			                
-                                </li> 
-                                
-                                <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom2">+</span>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/blog2.jpg" alt="blog2"> 
-                                    </div>
-                                    
-                                    <h6>Nghệ thật không giới hạn</h6>
-                                    <span class="date">10 Sep 2012 | 8 Comments</span>
-                                    <p>Với những hình Ảnh lạ mắt và vẽ trên tất cả địa hình, chất liệu. Mr Đại đã đưa người xem đến hết lý thú này đến thú vị khác.</p>                    
-                                    </a>
-                                </li>
-                                
-                                <li><a href="#">
-                                    <div class="slide-jcarousel">                                   
-                                    <span class="zoom2">+</span>
-                                    <div class="bgfade"></div>                    
-                                    <img src="<?php echo bloginfo('template_directory');?>/images/blog1.jpg" alt="blog1">  
-                                    </div>
-                                    
-                                    <h6>thế giới siêu xe</h6>
-                                    <span class="date">10 Sep 2012 | 8 Comments</span>
-                                    <p>Thể hiện đẳng cấp bằng những chiếc xe đẳng cấp. triển lãm siêu xe đầu tiên tại Việt Nam.</p>                
-                                    </a>			                
-                                </li> 
-                                                            
-                             </ul>
-            
-                        </div>   
+                        <?php include (TEMPLATEPATH . '/inc/tin_cong_nghe.php'); ?>
+                         
                     
                     </div><!--end from the blog-->
                     
