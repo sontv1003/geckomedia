@@ -15,7 +15,7 @@ include (TEMPLATEPATH . '/inc/band_index.php');
                             <div class="feature1-image"></div>
                             <h2>Thiết kế website</h2>
                             <p>Thiết kế website là hình ảnh doanh nghiệp, cá nhân hay thậm chí là một quốc gia trên internet và để lại giá trị đích thực cho người sử dụng!.</p>
-                                <a target="_blank" href="#dđ"><button class="greybutton">Xem Tiếp</button></a>
+                                <a target="_blank" href="<?php echo get_permalink(252); ?>"><button class="greybutton">Xem Tiếp</button></a>
                         </div>
                     </div>
                     

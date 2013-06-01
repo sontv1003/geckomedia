@@ -22,12 +22,12 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
         			<div class="blog-item">				                	
                  		              		
                                     <h4><?php the_title(); ?>.</h4>
-                                    <h5><span class="by">By </span> <?php the_author();?></h5>
-                                    <ul>
-                                            <li class="date"><?php the_time('F jS, Y');?></li>
-                                            <li class="view">16 views</li>
+                                    <h5><span class="by">By </span><?php the_author;?></h5>
+                                    <ul> 
+                                            <li class="date"><?php the_time(' j F Y');?></li>
+                                            <li class="view"><?php echo getPostViews(get_the_ID()); ?></li>
                                             <li class="comment"><?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?></li>
-                                            <li class="tag"><?php the_tags('','-',' '); ?></li>
+                                            <li class="tag"><?php the_tags('',' - ',' '); ?></li>
                                     </ul>             		
 
 
@@ -37,6 +37,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                                     <div class="shadow-big"></div> 
 
                                     <?php if(have_posts()) : while (have_posts()): the_post();  ?>
+                                    <?php setPostViews(get_the_ID()); ?> 
                                     <?php  the_content() ?>
                                     <?php  endwhile;  else : ?>
                                     <p> không Có nội dung </p>

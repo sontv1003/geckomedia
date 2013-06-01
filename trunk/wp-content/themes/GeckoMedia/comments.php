@@ -36,10 +36,10 @@
                 </div>
                 <form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post" id="commentform" class="sendmessage">
 
-                    <input type="text" name="author" id="author" class="sendmessage-inputbox" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
+                    <input type="text" name="author" id="name" class="sendmessage-inputbox" value="<?php echo esc_attr($comment_author); ?>" size="22" tabindex="1" <?php if ($req) echo "aria-required='true'"; ?> />
                     <input type="text" name="email" id="email"   class="sendmessage-inputbox" value="<?php echo esc_attr($comment_author_email); ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> />
 <!--                    <textarea name="message" id="message"></textarea>-->
-                    <textarea name="comment" id="comment"></textarea>
+                    <textarea name="comment" id="message"></textarea>
                    
                     <input name="submit" class="greybutton" type="submit" id="submit" value="Submit" />
                     <?php comment_id_fields(); ?>

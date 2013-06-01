@@ -23,7 +23,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                                               <h5><span class="by">By: </span><?php the_author();?></h5>
                                               <ul>
                                                   <li class="date"> <?php the_time('F jS, Y');?></li>
-                                                  <li class="view"><?php the_meta();?> </li>
+                                                  <li class="view"><?php echo getPostViews(get_the_ID()); ?></li>
                                                       <li class="comment"><?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?></li>
                                                       <li class="tag"><?php the_tags('','-',''); ?></li>
                                               </ul>             		

@@ -140,7 +140,7 @@ function gecko_media_comment($comment, $args, $depth)    {
                     <?php endif; ?>
                 </span>&#149;
                 <span class="reply"><?php comment_reply_link(array_merge($args,array('depth' => $depth, 'max_depth'=> $args['max_depth'])));?></span>
-                <p> <?php printf(get_comment_date());?><?php edit_comment_link(__('(Edit)'),' ',''); ?></p>
+                <p> <?php printf(get_comment_date('j F Y'));?></p>
                 <p><?php comment_text(); ?></p>
             </div>                 				
     

@@ -15,6 +15,8 @@
 		font-size: 14px;
 	}
 	
+        
+	
 	p.lead { line-height: 28px; }
 	
 	input,
@@ -1383,7 +1385,7 @@ ul.ourclient li img.color:hover{
 	width: 100%;
 	min-height: 80px;
 	height: auto;
-	background: url(http://localhost/gecko/wp-content/uploads/2013/05/pageintro-bg.png) center center repeat-y;
+	background: url(../images/pageintro-bg.png) center center repeat-y;
 	padding: 20px 0;
 }
 
@@ -2409,6 +2411,9 @@ textarea:focus,
 .sendmessage input[type=button]{
 	float: left;
 }
+.sendmessage input[type=submit]{
+	float: left;
+}
 
 .sendmessage input[type=button]:hover{
 	cursor: pointer;
@@ -3081,6 +3086,11 @@ ul.comments li img{
 ul.comments li div.comment-details{
 	height: auto;
 	overflow: hidden;
+}
+ul.comments li div.comment-details p { 
+    margin: 0 0 10px 0; 
+    color : #393939; 
+    font-size: 14px;
 }
 
 ul.comments li span{

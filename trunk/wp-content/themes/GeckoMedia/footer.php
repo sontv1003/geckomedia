@@ -1,5 +1,4 @@
 <!--##################### footer ######################## -->
-<?php wp_footer(); ?>
 <footer>
     <div class="footer-content">
         <div class="container">			
@@ -81,6 +80,7 @@
 
 </div><!--end boxview-->
 </div><!-- end boxcontainer-->
+<?php wp_footer(); ?>
 
 <div id="toTop">Top</div>
 
