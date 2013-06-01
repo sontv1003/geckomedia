@@ -18,10 +18,10 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                 	
                 		<ul class="port-nav">
 	                   		<li><a href="<?php get_option('home');  ?>" class="active">All</a></li>
-	                   		<li><a href="thiet-ke-web.html">Web Design</a></li>
-	                   		<li><a href="thiet-ke-bo-thuong-hieu.html">Graphic Design</a></li>
-	                   		<li><a href="domain-hosting.html">Domain & Hosting</a></li>
-	                   		<li><a href="seo-adword.html">SEO & SEM</a></li>
+	                   		<li><a href="<?php echo get_permalink(252); ?>">Web Design</a></li>
+	                   		<li><a href="<?php echo get_permalink(158); ?>">Graphic Design</a></li>
+	                   		<li><a href="<?php echo get_permalink(224); ?>">Domain & Hosting</a></li>
+	                   		<li><a href="<?php echo get_permalink(116); ?>">SEO & SEM</a></li>
 	                   	</ul>
                                 
 	               		
