@@ -462,12 +462,32 @@ nav.primary ul li a:hover {
 	border-bottom: 2px solid #73a91c;
 	cursor: pointer;
 }
-li.current-menu-item a{
+nav.primary ul li.current_page_item a{
 	background: #ffffff;
-	color: #505050 !important;
+	color: #505050;
 	padding: 36px 25px 34px 25px;
-	border-bottom: 2px solid #73a91c !important;
+	border-bottom: 2px solid #73a91c ;
 	cursor: pointer;
+}
+
+nav.primary ul li.current-menu-ancestor a{
+	background: #ffffff;
+	color: #505050;
+	padding: 36px 25px 34px 25px;
+	border-bottom: 2px solid #73a91c ;
+	cursor: pointer;
+}
+
+nav.primary ul li.current-menu-ancestor ul li a{
+	display: block;
+	text-transform: uppercase;
+	
+	white-space: nowrap;
+	padding: 8px 15px;
+	
+	background: #efefef;
+	
+	border-bottom: 1px solid #ffffff;
 }
 
 /*sub menu*/
