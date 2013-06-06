@@ -12,18 +12,20 @@
 	width:100%;
 	height:auto;
 	overflow: hidden;
-	
 	-webkit-font-smoothing: antialiased;
 }
 .nivoSlider img {
 	position:absolute;
-	top:0px;
-	left:0px;
+	top:0px !important;
+	left:430px !important;
+        width: 520px !important;
+        height: 450px !important;
 }
 .nivo-main-image {
 	display: block !important;
 	position: relative !important; 
-	width: 100% !important;
+	width: 520px !important;
+        height: 450px !important;
 }
 
 /* If an image is wrapped in a link */

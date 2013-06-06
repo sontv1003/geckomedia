@@ -19,20 +19,12 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                                 <div class="aboutus-shadow"></div>
                             </div>
                             <div class="eight columns">
-                                <h1 class="heading"><span>Mọi Thông tin hỗ trợ xin gửi về địa chỉ sua:</span></h1>
-                                <p>
-                                <strong>Trụ sở Hà Nội</strong><br>
-                                ĐC: Số 19 Phan Bội Châu - Hoàn Kiếm - Hà Nội
-                                <br>Hotline: <b>097.642.9086</b>
-                                <br>Email: info@geckmedia.vn
-                                </p> 
-
-                                <p>
-                                <strong>Chi Nhánh: Bắc Ninh</strong><br>
-                                ĐC: Số 8 Phố Thịnh Lang - Đình Bảng - Từ Sơn - Bắc Ninh
-                                <br>ĐT: 0241.3844.100&nbsp;&nbsp;&nbsp; Hotline: <b>0936.474.346</b>
-                                <br>Email: info@geckmedia.vn
-                                </p> 
+                                <?php if(have_posts()) : while (have_posts()): the_post();  ?>
+                                <h1 class="heading"><span><?php the_title();?></span></h1>
+                                <?php  the_content() ?>
+                                <?php  endwhile;  else : ?>
+                                <p> không Có nội dung </p>
+                                 <?php endif; ?>
                             </div>
                      </div><!-- end services -->
                     

@@ -21,7 +21,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                   <li class="next"></li>
                 </ul>
               </div>
-              <h4><?php the_field('tieu_de_bai_viet'); ?></h4>
+              <h4><?php the_title(); ?>.</h4>
               <div class="port-img"> <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                                     <img src="<?php echo $url ?>" />
               </div>

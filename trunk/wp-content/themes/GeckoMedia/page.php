@@ -30,7 +30,8 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                   <li class="next"></li>
                 </ul>
               </div>
-              <h4><?php the_field('tieu_de_bai_viet'); ?></h4>
+              <?php if(have_posts()) : while (have_posts()): the_post();  ?>
+              <h4><?php the_title(); ?>.</h4>
               <div class="port-img"> <?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
                                     <img src="<?php echo $url ?>" />
               </div>
@@ -40,7 +41,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
             <!-- portfolio desc-->
             <div class="twelve columns alpha">
                 <!-- AddThis Button BEGIN --> 
-                <?php if(have_posts()) : while (have_posts()): the_post();  ?>
+                
                             <?php  the_content() ?>
                             <?php  endwhile;  else : ?>
                             <p> không Có nội dung </p>
