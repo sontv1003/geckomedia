@@ -5,45 +5,63 @@
 		    	<a class="nivo-prevNavEx nivo-prevNav"></a>
 				<a class="nivo-nextNavEx nivo-nextNav"></a>
 		 		<div class="slider-wrapper theme-default">
-		            <div id="slider" class="nivoSlider">		            	             
-		            	<img src="<?php echo bloginfo('template_directory');?>/images/nivo-slide/img1.jpg" data-thumb="images/nivo-slider/img1.jpg" alt="" title="#caption-1">		                
-		                <img src="<?php echo bloginfo('template_directory');?>/images/nivo-slide/img2.jpg" data-thumb="images/nivo-slider/img2.jpg" alt="" title="#caption-2">		                
-		                <img src="<?php echo bloginfo('template_directory');?>/images/nivo-slide/img3.jpg" data-thumb="images/nivo-slider/img3.jpg" alt="" title="#caption-3">                   	
+		            <div id="slider" class="nivoSlider">
+                       <?php $id_silde  = get_option('geckomedia_id') ;
+                            is_array(explode(',', $id_silde)) ? $id_silde_cut = explode(',', $id_silde) : $id_silde_cut = array(23,116,224) ;
+                       ?>         
+               <?php 
+                  $i = 1;
+                 $args = array(
+                            'post_type' => array('post','page'),
+                            'post__in' => $id_silde_cut,
+                            'orderby' => 'name',
+                            'order' => 'ASC'
+              );
+            $my_query = null;
+            $my_query = new WP_Query($args);
+            if( $my_query->have_posts() ) {
+            
+              while ($my_query->have_posts()) : $my_query->the_post(); ?>
+                               
+		            	<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID, 'thumbnail') ); ?>
+                                <img src="<?php echo $url ?>"  alt="" title="#caption-<?=$i?>"/>
+                        <?php  $i++; endwhile; }  wp_reset_query();  ?>
 		            </div>
 		                    
 		           	<!-- Slide #1 caption (id="caption-1") -->
-		            <div class="nivo-html-caption" id="caption-1">
+                             <?php 
+                 $i = 1;
+                 $args = array(
+                            'post_type' => array('post','page'),
+                            'post__in' => $id_silde_cut,
+                            'orderby' => 'name',
+                            'order' => 'ASC'
+              );
+            $my_query = null;
+            $my_query = new WP_Query($args);
+            if( $my_query->have_posts() ) {
+             // echo 'Latest Post in '.$taxonomy .' '.$term->name;
+              while ($my_query->have_posts()) : $my_query->the_post(); ?>
+		            <div class="nivo-html-caption" id="caption-<?=$i?>">
 		                <div>
-			                <h1>Hơn 300 mẫu Website cực đẹp.</h1>
-		                    <p>Với kho giao diện được thiết kế cực đẹp, chuyên nghiệp, theo tiêu chuẩn quốc tế phù hợp với từng ngành nghề, lĩnh vực kinh doanh. Bạn dễ dàng lựa chọn và thay đổi theo ý muốn.</p>
-		                    <a href="300-mau-website.html" class="buttonorange">Xem chi tiết</a>
+			                <h1><?php the_title();?></h1>
+		                    <p><?php echo substr( get_the_excerpt(), 0, strrpos( substr( get_the_excerpt(), 0,390), ' ' ) ).' ...'; ?></p>
+		                    <a href="<?php the_permalink();?>" class="buttonorange">Xem chi tiết</a>
 		                </div>
 		            </div>
 		            
-		           	<!-- Slide #2 caption (id="caption-2") -->
-		            <div class="nivo-html-caption" id="caption-2">
-		                <div>
-			                <h1 >Ứng dụng phong phú từ cộng đồng.</h1>
-		                    <p>Được xây dựng dựa trên nền tảng Công nghệ mới và cộng đồng lập trình viên lớn nhất trong các giải pháp thương mại điện tử trên thế giới, hoàn toàn tương thích với hệ thống của chúng tôi.</p>
-		                    <a href="seo-adword.html" class="buttonorange">Xem chi tiết</a>
-		                </div>
-		            </div>
-		            
-		            <!-- Slide #3 caption (id="caption-3") -->
-		            <div class="nivo-html-caption" id="caption-3">
-		                <div>
-			                <h1 >Dịch vụ đăng ký Tên miền &s Hosting</h1>
-		                    <p>Khách hàng khi đăng ký tên miền tại GECKO MEDIA Được Nhiều ưu đã như: Tư vấn miễn phí thiết kế website, tư vấn phát triển sản phầm theo hương marketing online và nhiều thứ khác....</p>
-		                    <a href="domain-hosting.html" class="buttonorange">Xem chi tiết</a>
-		                </div>
-		            </div>
+		  <?php $i++; endwhile; }   wp_reset_query(); ?>
                     
 				</div>
 		
 		     </div>
 		        
 		</div>
-		
-		
+               
+	   
 		<!-- =============== end slider ============= -->
-                
+		<?php // the_featured_posts_slider(); ?> 
+<!--                <div class="band slider">
+		<?php // include (ABSPATH . '/wp-content/plugins/wp-featured-content-slider/content-slider.php');?>
+                 <div class="clear"></div>
+                </div>-->

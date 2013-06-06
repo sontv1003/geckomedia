@@ -64,7 +64,7 @@ function twentytwelve_setup() {
         
 	// This theme uses a custom image size for featured images, displayed on "standard" posts.
 	add_theme_support( 'post-thumbnails' );
-	set_post_thumbnail_size( 624, 9999 ); // Unlimited height, soft crop
+        set_post_thumbnail_size( 530, 450 ,true);
 }
 add_action( 'after_setup_theme', 'twentytwelve_setup' );
 
@@ -147,7 +147,7 @@ function gecko_media_comment($comment, $args, $depth)    {
     <?php } ?>
 <?php 
         
-
+ include_once (TEMPLATEPATH. '/inc/slide_option.php');
 
 /**
  * Enqueues scripts and styles for front-end.
