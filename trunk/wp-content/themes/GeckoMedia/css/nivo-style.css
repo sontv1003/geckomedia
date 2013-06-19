@@ -73,8 +73,8 @@ a.nivo-nextNav:hover{
 .slider-wrapper { 
 	max-width: 960px; 
 	margin: 0 auto;
-        padding: 15px 0;
-	background: #fefefe;
+        padding: 0px;
+	background: #EFEFEF;
 }
 
 .slide{
