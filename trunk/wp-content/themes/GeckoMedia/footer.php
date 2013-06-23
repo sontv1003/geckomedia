@@ -56,7 +56,7 @@
 
                 <p>Email: <a href="mailto:info@geckomedia.vn">info@geckomedia.vn</a></p>
                 <ul class="social">
-                    <li><a href="http://www.facebook.com/geckomedia" title="facebook" target="_blank"><span class="facebook"></span></a></li>
+                    <li><a href="https://www.facebook.com/pages/Gecko-Media/329445053849064" title="facebook" target="_blank"><span class="facebook"></span></a></li>
                     <li><a href="http://www.twitter.com/geckomedia" title="twitter" target="_blank"><span class="twitter"></span></a></li>
                     <li><a href="http://www.youtube.com/geckomedia" title="youtube" target="_blank"><span class="youtube"></span></a></li>
                     <li><a href="http://www.linkedin.com/geckomedia" title="linkedin" target="_blank"><span class="linkedin"></span></a></li>

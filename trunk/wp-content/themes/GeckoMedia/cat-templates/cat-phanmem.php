@@ -6,7 +6,7 @@
 <?php 
 get_header();
 include (TEMPLATEPATH . '/inc/site_option.php');
-include (TEMPLATEPATH . '/inc/page_intro.php');
+include (TEMPLATEPATH . '/inc/page_intro_phan_mem.php');
 ?>
         
         <div class="maincontainer"><!-- start main container -->
