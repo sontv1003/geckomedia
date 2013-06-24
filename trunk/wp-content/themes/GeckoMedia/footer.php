@@ -8,37 +8,9 @@
                     <a href="aboutus.html">Xem tiếp &rarr;</a></p>
             </div><!--end first block-->
             <div class="four columns"><!--second block-->
-                <h3>Hỗ Trợ khách hàng</h3>
-                <div class="ja-col">
-                    <li>
-                        <a rel="nofollow" href="ymsgr:sendim?duong_xuan_hao" target="_blank" title="Thư Tư vấn thiết kế web bán hàng">
-                            <img border="0" src="<?php echo bloginfo('template_directory');?>/images/avata-lan.jpg" title="Thư Tư vấn thiết kế web bán hàng" alt="Thư Tư vấn thiết kế web bán hàng" class="avatar"></a>
-                        <span class="title-ho-tro">Hoàng Thư</span>
-
-                        <span class="sdt">0936.474.346</span>
-                        <span class="sdt">thuhn@geckomedia.vn</span>
-                        <div class="link">
-                            <a title="Tư vấn thiết kế web bán hàng" rel="nofollow" href="ymsgr:sendim?duong_xuan_hao" target="_blank" class="yahoo">
-                                <img src="http://opi.yahoo.com/online?u=duong_xuan_hao&amp;m=g&amp;t=5">
-                            </a>
-                            <a href="mailto:thuhn@geckomedia.vn" class="mailto" rel="nofollow">thuhn@geckomedia.vn</a>
-                        </div>
-                    </li>
-                    <li>
-                        <a rel="nofollow" href="ymsgr:sendim?tuvan2_geckomedia" target="_blank" title="Thư Tư vấn thiết kế web bán hàng">
-                            <img border="0" src="<?php echo bloginfo('template_directory');?>/images/avata-hoa.jpg" title="Thư Tư vấn thiết kế web bán hàng" alt="Thư Tư vấn thiết kế web bán hàng" class="avatar"></a>
-                        <span class="title-ho-tro">Quỳnh Hoa</span>
-
-                        <span class="sdt">097.642.9086</span>
-                        <span class="sdt">thuhn@geckomedia.vn</span>
-                        <div class="link">
-                            <a title="Tư vấn thiết kế web bán hàng" rel="nofollow" href="ymsgr:sendim?tuvan2_geckomedia" target="_blank" class="yahoo">
-                                <img src="http://opi.yahoo.com/online?u=tuvan2_geckomedia&amp;m=g&amp;t=5">
-                            </a>
-                            <a href="mailto:thuhn@geckomedia.vn" class="mailto" rel="nofollow">thuhn@geckomedia.vn</a>
-                        </div>
-                    </li>
-                </div>
+                <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+                <?php endif; ?>
             </div><!--end second block-->
 
 

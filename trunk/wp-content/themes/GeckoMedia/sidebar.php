@@ -8,15 +8,9 @@
               </div>
               <!--end blog categories-->
               <div class="textwidget"><!--text widget-->
-                <h6 class="margin20">Hỗ trợ online</h6>
-                <div class="ja-col">
-                  <li> <a title="Thư Tư vấn thiết kế web bán hàng" target="_blank" href="ymsgr:sendim?duong_xuan_hao" rel="nofollow"> <img border="0" class="avatar" alt="Thư Tư vấn thiết kế web bán hàng" title="Thư Tư vấn thiết kế web bán hàng" src="<?php echo bloginfo('template_directory');?>/images/avata-lan.jpg"></a> <span class="title-ho-tro" style="top: -40px;">Hoàng Thư</span> <span class="sdt" style="top: -40px;">0936.474.346</span> <span class="sdt" style="top: -40px;">thuhn@geckomedia.vn</span>
-                    <div class="link"> <a class="yahoo" target="_blank" href="ymsgr:sendim?duong_xuan_hao" rel="nofollow" title="Tư vấn thiết kế web bán hàng"> <img src="http://opi.yahoo.com/online?u=duong_xuan_hao&amp;m=g&amp;t=5"> </a> <a rel="nofollow" class="mailto" href="mailto:thuhn@geckomedia.vn">thuhn@geckomedia.vn</a> </div>
-                  </li>
-                  <li> <a title="Thư Tư vấn thiết kế web bán hàng" target="_blank" href="ymsgr:sendim?tuvan2_geckomedia" rel="nofollow"> <img border="0" class="avatar" alt="Thư Tư vấn thiết kế web bán hàng" title="Thư Tư vấn thiết kế web bán hàng" src="<?php echo bloginfo('template_directory');?>/images/avata-hoa.jpg"></a> <span class="title-ho-tro" style="top: -40px;">Quỳnh Hoa</span> <span class="sdt" style="top: -40px;">097.642.9086</span> <span class="sdt" style="top: -40px;">thuhn@geckomedia.vn</span>
-                    <div class="link"> <a class="yahoo" target="_blank" href="ymsgr:sendim?tuvan2_geckomedia" rel="nofollow" title="Tư vấn thiết kế web bán hàng"> <img src="http://opi.yahoo.com/online?u=tuvan2_geckomedia&amp;m=g&amp;t=5"> </a> <a rel="nofollow" class="mailto" href="mailto:thuhn@geckomedia.vn">thuhn@geckomedia.vn</a> </div>
-                  </li>
-                </div>
+                <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+			<?php dynamic_sidebar( 'sidebar-1' ); ?>
+                <?php endif; ?>
               </div>
               
               <!--end tabwidget-->

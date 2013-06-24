@@ -121,7 +121,166 @@ function setPostViews($postID) {
 }
 ?>
 
+<?php
+/*
+ * Tạo Yahoo status widget
+ * */
 
+
+class Yahoo_Status extends WP_Widget {
+ 
+    //Khởi tạo contructor của 1 lớp
+    function Yahoo_Status(){
+        parent::WP_Widget('Yahoo_Status_Widget',
+            'Yahoo Status',
+            array('description' => 'Trạng thái nick yahoo.'));
+    }
+    
+    function widget( $args, $instance ) {
+        extract($args);
+        $title = apply_filters( 'widget_title',
+            empty($instance['title']) ? '' : $instance['title'],
+            $instance, $this->id_base);
+         $text = apply_filters( 'widget_text',
+            $instance['text'], $instance ); 
+        $name = apply_filters( 'widget_name',
+            $instance['name'], $instance );
+        
+        $email= apply_filters( 'widget_email',
+            $instance['email'], $instance );
+       
+        $phone_number = apply_filters( 'widget_phone_number',
+            $instance['phone_number'], $instance );
+        
+        $avatar = apply_filters( 'widget_avatar',
+            $instance['avatar'], $instance );
+        
+        echo $before_widget;
+        if ( !empty( $title ) ) { 
+            echo $before_title . '<h6 class="margin20">'.$title .'</h6>'. $after_title; } ?>        
+           <div class="ja-col">
+            <?php 
+                  $str_text = explode(",", $text); 
+                  $str_name = explode(",", $name); 
+                  $str_phone_number = explode(",", $phone_number); 
+                  $str_email = explode(",", $email); 
+                  $str_avatar = explode(",", $avatar); 
+                  $length = count($str_text);
+                  for($i=0;$i<$length;$i++){
+                ?>
+                    
+                  <li> <a title="Thư Tư vấn thiết kế web bán hàng" target="_blank" href="ymsgr:sendim?<?php echo trim($str_text[$i]);?>" rel="nofollow"> <img border="0" class="avatar" alt="Thư Tư vấn thiết kế web bán hàng" title="Thư Tư vấn thiết kế web bán hàng" src="<?php echo trim($str_avatar[$i]);?>"></a> <span class="title-ho-tro" style="top: -40px;"><?php echo trim($str_name[$i]);?></span> <span class="sdt" style="top: -40px;"><?php echo trim($str_phone_number[$i]);?></span> <span class="sdt" style="top: -40px;"><?php echo trim($str_email[$i]);?></span>
+                    <div class="link"> <a class="yahoo" target="_blank" href="ymsgr:sendim?<?php echo trim($str_text[$i]);?>" rel="nofollow" title="Tư vấn thiết kế web bán hàng"> <img src="http://opi.yahoo.com/online?u=<?php echo trim($str_text[$i]);?>&amp;m=g&amp;t=5"> </a> <a rel="nofollow" class="mailto" href="mailto:<?php echo trim($str_email[$i]);?>"><?php echo trim($str_email[$i]);?></a> </div>
+                  </li>
+                  
+            <?php   }                    
+            ?>
+           </div>  
+            
+
+
+        <?php
+        echo $after_widget;
+    }
+    
+    function update( $new_instance, $old_instance ) {
+        $instance = $old_instance;
+        $instance['title']        = strip_tags($new_instance['title']);
+        $instance['name']         = strip_tags($new_instance['name']);
+        $instance['phone_number'] = strip_tags($new_instance['phone_number']);
+        $instance['email']        = strip_tags($new_instance['email']);
+        $instance['avatar']       = strip_tags($new_instance['avatar']);
+    return $instance;
+    }
+    
+    function form( $instance ) {
+        $instance = wp_parse_args( (array) $instance,
+            array( 'title' => '', 'text' => '','name' => '','phone_number' => '','email' => '' ,'avatar' => '') );
+        $title = strip_tags($instance['title']);
+        $text = format_to_edit($instance['text']);
+        $name = format_to_edit($instance['name']);
+        $phone_number = format_to_edit($instance['phone_number']);
+        $email = format_to_edit($instance['email']);
+        $avatar = format_to_edit($instance['avatar']);
+    ?>
+        <p>
+            <label for="<?php echo $this->get_field_id('title'); ?>">
+                <?php _e('Tiêu đề:'); ?> </label>
+            <input class="widefat" id="<?php echo $this->get_field_id('title'); ?>"
+                name="<?php echo $this->get_field_name('title'); ?>" type="text"
+                value="<?php echo  esc_attr($title);?>" />
+        </p>
+      
+            <label for="<?php echo $this->get_field_id('text'); ?>">
+                <?php _e('Nick yahoo(cách nhau bởi dấu ,):'); ?> </label>
+            <textarea class="widefat" rows="5" cols="10"
+                id="<?php echo $this->get_field_id('text'); ?>"
+                name="<?php echo $this->get_field_name('text'); ?>">
+                    <?php echo $text;?>
+            </textarea>
+        <p>
+            <label for="<?php echo $this->get_field_id('text'); ?>">
+                <?php _e('Ví dụ: tanvannguyen18, meocon17'); ?>
+            </label>         
+        </p>
+        
+        <label for="<?php echo $this->get_field_id('name'); ?>">
+                <?php _e('Tên (cách nhau bởi dấu ,):'); ?> </label>
+            <textarea class="widefat" rows="5" cols="10"
+                id="<?php echo $this->get_field_id('name'); ?>"
+                name="<?php echo $this->get_field_name('name'); ?>">
+                    <?php echo $name;?>
+            </textarea>
+        <p>
+            <label for="<?php echo $this->get_field_id('name'); ?>">
+                <?php _e('Ví dụ: tanvannguyen18, meocon17'); ?>
+            </label>         
+        </p>
+        
+        <label for="<?php echo $this->get_field_id('phone_number'); ?>">
+                <?php _e('Số điện thoại(cách nhau bởi dấu ,):'); ?> </label>
+            <textarea class="widefat" rows="5" cols="10"
+                id="<?php echo $this->get_field_id('phone_number'); ?>"
+                name="<?php echo $this->get_field_name('phone_number'); ?>">
+                    <?php echo $phone_number;?>
+            </textarea>
+        <p>
+            <label for="<?php echo $this->get_field_id('phone_number'); ?>">
+                <?php _e('Ví dụ: 0987654321, 0123456789'); ?>
+            </label>         
+        </p>
+        
+        <label for="<?php echo $this->get_field_id('email'); ?>">
+                <?php _e('Địa chỉ email(cách nhau bởi dấu ,):'); ?> </label>
+            <textarea class="widefat" rows="5" cols="10"
+                id="<?php echo $this->get_field_id('email'); ?>"
+                name="<?php echo $this->get_field_name('email'); ?>">
+                    <?php echo $email;?>
+            </textarea>
+        <p>
+            <label for="<?php echo $this->get_field_id('email'); ?>">
+                <?php _e('Ví dụ: geckomedia1@gmail.com, geckomedia2@gmail.com'); ?>
+            </label>         
+        </p>
+        
+        <label for="<?php echo $this->get_field_id('avatar'); ?>">
+                <?php _e('Link ảnh đại diện(cách nhau bởi dấu ,):'); ?> </label>
+            <textarea class="widefat" rows="5" cols="10"
+                id="<?php echo $this->get_field_id('avatar'); ?>"
+                name="<?php echo $this->get_field_name('avatar'); ?>">
+                    <?php echo $avatar;?>
+            </textarea>
+        <p>
+            <label for="<?php echo $this->get_field_id('avatar'); ?>">
+                <?php _e('Ví dụ: 0987654321, 0123456789'); ?>
+            </label>         
+        </p>
+<?php
+   }
+}
+     
+register_widget('Yahoo_Status');
+?>
 
 
 <?php
