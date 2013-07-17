@@ -3052,13 +3052,14 @@ ul.tabwidget-item li p:hover{
 	padding: 10px 20px;
 }
 
-.blog-img{
+.blog-img{    
 	margin: 20px 0 0 0;
 	width: 100%;
 	height: auto;
 }
 
 .blog-img img{
+   
 	max-width: 100%;
 }
 
@@ -3868,20 +3869,19 @@ body.search #search-wrap .page-title{
 }
 
 #wpcontent_slider
-.cs-title{
-    margin-left: 40px !important;
-    width: 370px !important;
+.cs-title{    
+    width: 400px !important;
     height: 270px;
     position: absolute;
     padding: 5px 10px !important;
-    top: 75px !important;
+    top: 40px !important;
     left: 0!important;
     z-index: 8;
     /*height: 350px;*/
 }
 
-.cs-title h4{
-    margin-bottom: 20px !important;
+#wpcontent_slider .cs-title h4{
+    margin-bottom: 30px !important;
 }
 #cs-navigation-wpcontent_slider{
      /*display: block !important;*/

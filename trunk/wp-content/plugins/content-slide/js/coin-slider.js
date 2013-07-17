@@ -42,7 +42,7 @@
 			$.each($('#'+el.id+' img'), function(i,item){
 				images[el.id][i] 		= $(item).attr('src');
 				links[el.id][i] 		= $(item).parent().is('a') ? $(item).parent().attr('href') : '';
-				linksTarget[el.id][i] 	= $(item).parent().is('a') ? $(item).parent().attr('target') : '';
+				linksTarget[el.id][i]           = $(item).parent().is('a') ? $(item).parent().attr('target') : '';
 				titles[el.id][i] 		= $(item).next().is('span') ? $(item).next().html() : '';
 				$(item).hide();
 				$(item).next().hide();
@@ -229,11 +229,10 @@
 		// navigation
 		$.setNavigation = function(el){
 			// create prev and next 
-			$(el).append("<div id='cs-navigation-"+el.id+"'></div>");
-			$('#cs-navigation-'+el.id).hide();
-			
-			$('#cs-navigation-'+el.id).append("<a href='#' id='cs-prev-"+el.id+"' class='cs-prev'>&lt;</a>");
-			$('#cs-navigation-'+el.id).append("<a href='#' id='cs-next-"+el.id+"' class='cs-next'>&gt;</a>");
+			$(el).parent().parent().append("<div id='cs-navigation-"+el.id+"'></div>");
+			$('#cs-navigation-'+el.id).hide();			
+			$('#cs-navigation-'+el.id).append("<a href='#' id='cs-prev-"+el.id+"' class='cs-prev'></a>");
+			$('#cs-navigation-'+el.id).append("<a href='#' id='cs-next-"+el.id+"' class='cs-next'></a>");
 			$('#cs-prev-'+el.id).css({
 				'position' 	: 'absolute',
 				'top'		: params[el.id].height/2 - 15,

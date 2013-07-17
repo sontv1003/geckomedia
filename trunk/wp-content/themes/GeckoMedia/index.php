@@ -33,7 +33,7 @@ include (TEMPLATEPATH . '/inc/band_index.php');
                             <div class="feature4-image"></div>
                             <h2>Hơn 300 mẫu đẹp</h2>
                             <p>Với kho giao diện được thiết kế cực đẹp, chuyên nghiệp, theo tiêu chuẩn quốc tế phù hợp với từng ngành nghề, lĩnh vực kinh doanh. Bạn dễ dàng lựa chọn và thay đổi theo ý muốn.</p>
-                            <a target="_blank" href="<?php echo get_category_link(25); ?>"><button class="greybutton">read more</button></a>
+                            <a target="_blank" href="<?php echo get_category_link(25); ?>"><button class="greybutton">Xem tiếp</button></a>
                         </div>
                     </div>
                     
@@ -42,7 +42,7 @@ include (TEMPLATEPATH . '/inc/band_index.php');
                             <div class="feature3-image"></div>
                             <h2>Hỗ trợ Nhiệt tình</h2>
                             <p>Đội ngũ nhân viên chuyên nghiệp sẽ Hỗ trợ và Tư vân bạn một cách nhanh nhất và nhiệt tình nhất. Đưa ra các giải pháp tối ưu để khách hàng tiếp cận với xu thế và công nghệ mới.</p>
-                            <a target="_blank" href="<?php echo get_permalink(25); ?>"><button class="greybutton">read more</button></a>
+                            <a target="_blank" href="<?php echo get_permalink(25); ?>"><button class="greybutton">Xem tiếp</button></a>
                         </div>
                     </div>
                     

@@ -26,14 +26,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
 	                 			</ul>
 	                 		</div>
 	                 		
-                                    <h4><?php the_title(); ?>.</h4>             		
-	                 		
-	                 		
-	                 		<div class="port-img">
-	                 			<?php thumb_img($post->ID,'900','282','100',get_the_title());  ?>
-	                 		</div>
-	                 		<div class="shadow-big"></div>  	
-	                   
+                                    <h4><?php the_title(); ?>.</h4>                 			
 	               		</div>
 					
 					</div>
