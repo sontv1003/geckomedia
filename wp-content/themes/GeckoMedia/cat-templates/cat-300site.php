@@ -27,7 +27,6 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
 	               		<div class="portfolio2columns">
 	               			<ul>
                                                 <?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-                                                 <?php query_posts( array( 'cat' => 25, 'paged' => $paged,'showposts'=>8 ) ); ?>           
 
                                                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                                                         

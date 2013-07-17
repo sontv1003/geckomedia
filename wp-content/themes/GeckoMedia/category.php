@@ -29,8 +29,6 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
              
                <?php  
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?>
-                <?php query_posts( array( 'cat' => 22, 'paged' => $paged,'showposts'=>4 ) ); ?>           
-
                 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
                                 <div class="blog-item">				                	
 
@@ -41,12 +39,7 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                                                   <li class="view"><?php the_meta();?> </li>
                                                       <li class="comment"><?php comments_popup_link('No Comments', '1 Comment', '% Comments', 'comments-link', ''); ?></li>
                                                       <li class="tag"><?php the_tags('','-',''); ?></li>
-                                              </ul>             		
-
-
-                                              <div class="blog-img">
-                                                      <?php thumb_img($post->ID, '940', '390', '100', get_the_title()); ?>
-                                              </div>
+                                              </ul>        
                                               <div class="shadow-big"></div> 
 
                                               <p><?php echo substr( get_the_excerpt(), 0, strrpos( substr( get_the_excerpt(), 0,990), ' ' ) ).' ...'; ?></p>  

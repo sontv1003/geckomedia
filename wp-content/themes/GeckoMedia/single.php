@@ -30,7 +30,6 @@ include (TEMPLATEPATH . '/inc/page_intro.php');
                                             <li class="tag"><?php the_tags('',' - ',' '); ?></li>
                                     </ul>             		
 
-
                                     <div class="blog-img">
                                             <?php thumb_img($post->ID, '940', '390', '100', get_the_title()); ?>
                                     </div>
