@@ -3,7 +3,6 @@
 * Template Name Posts: Single-project
 */
 ?>
-?>
 <?php 
 get_header();
 include (TEMPLATEPATH . '/inc/site_option.php');
