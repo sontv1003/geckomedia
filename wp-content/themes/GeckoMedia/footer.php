@@ -5,7 +5,7 @@
             <div class="four columns"><!--first block-->
                 <h3 class="logo"><a href="index.html">Gecko Media</a></h3>
                 <p>Công ty thiết kế website uy tín, chất lượng. Dịch vụ thiết kế website theo đúng chuẩn SEO. Hãy cùng tìm hiểu cách chúng tôi giúp việc kinh doanh của bạn phát triển mạnh trên internet!<br />
-                    <a href="aboutus.html">Xem tiếp &rarr;</a></p>
+                    <a href="<?php echo get_page_link(23); ?>">Xem tiếp &rarr;</a></p>
             </div><!--end first block-->
             <div class="four columns"><!--second block-->
                 <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
