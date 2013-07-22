@@ -84,7 +84,7 @@
 		<div class="header">		
 			<header class="header-content">
 		
-				<h1 class="logo"><a href=".">Gecko Media</a></h1>
+                            <h1 class="logo"><a href="<?php echo site_url(); ?>">Gecko Media</a></h1>
 										
 					<div class="navigation">
 		
